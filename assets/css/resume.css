@@ -548,6 +548,20 @@ body {
     align-items: center;
     flex-wrap: wrap;
     margin: 60px auto;
+	flex-direction: column;
+  }
+
+  .newsFlash .newsFlash-content {
+	display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 20px 0px;
+  }
+
+  .newsFlash .newsFlash-heading {
+	font-size: 30px;
+    color: #1d5454;
+    font-family: 'Merienda One';
   }
   
   .skyinyou,
@@ -556,10 +570,7 @@ body {
 	font-size: 27px;
 	text-align: center;
 	color: darkslategray;
-	font-family: satisfy;
-	word-spacing: 7px;
-	letter-spacing: 7px;
-	margin-bottom: 15px;
+	font-family: 'Bellota';
   }
   
   .publication {
