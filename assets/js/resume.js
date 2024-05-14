@@ -294,12 +294,12 @@ function autosize(textarea){
 }
 
 let mailIcon=$("#mailicon")
-$("#mailto").mouseover(function()
+$("#mailicon-box").mouseover(function()
 {
     mailIcon.removeClass("fa-envelope")
     mailIcon.addClass("fa-envelope-open")
 })
-$("#mailto").mouseout(function()
+$("#mailicon-box").mouseout(function()
 {
     mailIcon.addClass("fa-envelope")
     mailIcon.removeClass("fa-envelope-open")
