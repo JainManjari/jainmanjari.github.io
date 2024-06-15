@@ -190,7 +190,7 @@ body.modal-open {
   padding: 10px;
 }
 
-.threejournies>div {
+.threejournies > div {
   width: 210px;
   height: 250px;
   border: none;
@@ -231,7 +231,7 @@ body.modal-open {
   background: #660c66;
 }
 
-.threejournies>div .toplayer {
+.threejournies > div .toplayer {
   top: 0;
   position: absolute;
   padding-top: 15%;
@@ -245,7 +245,7 @@ body.modal-open {
   cursor: pointer;
 }
 
-.threejournies>div:hover .toplayer {
+.threejournies > div:hover .toplayer {
   left: 100%;
 }
 
@@ -278,13 +278,13 @@ body.modal-open {
   margin: 3px;
 }
 
-.threejournies>div .insidetext {
+.threejournies > div .insidetext {
   margin-top: 0;
   cursor: pointer;
 }
 
-.threejournies>div .insidetext,
-.threejournies>div .toplayer {
+.threejournies > div .insidetext,
+.threejournies > div .toplayer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -299,11 +299,11 @@ body.modal-open {
   font-size: 22px;
 }
 
-.threejournies>div .insidetext span {
+.threejournies > div .insidetext span {
   margin: 4px;
 }
 
-.threejournies>div .toplayer>span {
+.threejournies > div .toplayer > span {
   margin: 10px;
 }
 
@@ -319,11 +319,11 @@ body.modal-open {
   background: #573181;
 }
 
-.threejournies>div .modal .modal-dialog {
+.threejournies > div .modal .modal-dialog {
   height: 500px;
 }
 
-.threejournies>div .modal .modal-header {
+.threejournies > div .modal .modal-header {
   color: white;
   width: 100.5%;
   display: flex;
@@ -331,27 +331,40 @@ body.modal-open {
   height: 13%;
 }
 
-.threejournies>div .modal .modal-content {
+.threejournies > div .modal .modal-content {
   height: 100%;
 }
 
-.threejournies>div .modal .modal-content .modal-body {
+.threejournies > div .modal .modal-content .modal-body {
   height: 87%;
 }
 
-.threejournies>div .modal .modal-content .carousel {
+.threejournies > div .modal .modal-content .carousel {
   height: 100%;
 }
 
-.threejournies>div.modal .modal-content .carousel-inner {
+.threejournies > div.modal .modal-content .carousel-inner {
   height: 100%;
 }
 
-.threejournies>div .modal .modal-content .carousel .carousel-inner .carousel-item {
+.threejournies
+  > div
+  .modal
+  .modal-content
+  .carousel
+  .carousel-inner
+  .carousel-item {
   height: 100%;
 }
 
-.threejournies>div .modal .modal-content .carousel .carousel-inner .carousel-item .card {
+.threejournies
+  > div
+  .modal
+  .modal-content
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .card {
   height: 100%;
   width: 100% !important;
   border-radius: 30px;
@@ -360,62 +373,182 @@ body.modal-open {
   color: black;
 }
 
-.threejournies .certificates #certModal .modal-content .carousel .carousel-inner .carousel-item .card,
-.threejournies .portfolio #portModal .modal-content .carousel .carousel-inner .carousel-item .card {
+.threejournies
+  .certificates
+  #certModal
+  .modal-content
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .card,
+.threejournies
+  .portfolio
+  #portModal
+  .modal-content
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .card {
   border-radius: 0;
 }
 
-.threejournies .certificates #certModal .modal-content .carousel .carousel-inner .carousel-item .card a,
-.threejournies .portfolio #portModal .modal-content .carousel .carousel-inner .carousel-item .card a {
+.threejournies
+  .certificates
+  #certModal
+  .modal-content
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .card
+  a,
+.threejournies
+  .portfolio
+  #portModal
+  .modal-content
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .card
+  a {
   position: absolute;
   bottom: 35px;
 }
 
-.threejournies .portfolio #portModal .modal-content .carousel .carousel-inner .carousel-item .card a {
+.threejournies
+  .portfolio
+  #portModal
+  .modal-content
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .card
+  a {
   background: #665394;
   border-color: purple;
 }
 
-.threejournies .portfolio #portModal .modal-content .carousel .carousel-inner .carousel-item .card a:hover {
+.threejournies
+  .portfolio
+  #portModal
+  .modal-content
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .card
+  a:hover {
   background: #594781;
 }
 
-.threejournies .certificates #certModal .modal-content .carousel .carousel-inner .carousel-item .card img,
-.threejournies .portfolio #portModal .modal-content .carousel .carousel-inner .carousel-item .card img {
+.threejournies
+  .certificates
+  #certModal
+  .modal-content
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .card
+  img,
+.threejournies
+  .portfolio
+  #portModal
+  .modal-content
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .card
+  img {
   height: 190px;
   width: 80%;
   margin: auto;
 }
 
-.threejournies .portfolio #portModal .modal-content .carousel .carousel-inner .carousel-item .card img {
+.threejournies
+  .portfolio
+  #portModal
+  .modal-content
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .card
+  img {
   width: 60%;
 }
 
-.threejournies .certificates #certModal .modal-content .carousel .carousel-indicators,
-.threejournies .portfolio #portModal .modal-content .carousel .carousel-indicators {
+.threejournies
+  .certificates
+  #certModal
+  .modal-content
+  .carousel
+  .carousel-indicators,
+.threejournies
+  .portfolio
+  #portModal
+  .modal-content
+  .carousel
+  .carousel-indicators {
   margin-bottom: 5px;
 }
 
-.threejournies>div .modal .modal-content .carousel .carousel-inner .carousel-item .card a {
+.threejournies
+  > div
+  .modal
+  .modal-content
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .card
+  a {
   margin-top: 30px;
 }
 
-.threejournies .quora #quoraModal .modal-content .carousel .carousel-inner .carousel-item .card .btn-info {
+.threejournies
+  .quora
+  #quoraModal
+  .modal-content
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .card
+  .btn-info {
   background-color: #ad334c;
   border-color: #681f2e;
   position: absolute;
   bottom: 60px;
 }
 
-.threejournies .quora #quoraModal .modal-content .carousel .carousel-inner .carousel-item .card .btn-info:hover {
+.threejournies
+  .quora
+  #quoraModal
+  .modal-content
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .card
+  .btn-info:hover {
   background-color: #c71236;
 }
 
-.threejournies>div .modal .modal-content .carousel .carousel-inner .carousel-item .card #qb2 {
+.threejournies
+  > div
+  .modal
+  .modal-content
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .card
+  #qb2 {
   margin-top: 10px;
 }
 
-.threejournies>div .modal .modal-content .carousel .carousel-inner .carousel-item .card .card-body {
+.threejournies
+  > div
+  .modal
+  .modal-content
+  .carousel
+  .carousel-inner
+  .carousel-item
+  .card
+  .card-body {
   padding: 1.4rem;
   font-family: Georgia;
   font-size: 15px;
@@ -597,6 +730,7 @@ section {
   align-items: center;
   min-height: 730px;
   position: relative;
+  justify-content: center;
 }
 
 #leaves {
@@ -835,14 +969,14 @@ section:nth-child(2n + 1) {
   align-items: center;
 }
 
-.social>span {
+.social > span {
   font-size: 25px;
   color: #d19ea8;
   font-family: cambria;
   text-align: center;
 }
 
-.social>span img {
+.social > span img {
   height: 40px;
   width: 59px;
   margin-top: -6px;
@@ -872,7 +1006,6 @@ section:nth-child(2n + 1) {
 #logo-designer:hover {
   color: #ffcdd2;
 }
-
 
 .description {
   background: inherit;
@@ -932,8 +1065,26 @@ section:nth-child(2n + 1) {
   background-image: url("../images/trophy.ico");
 }
 
+.skill-display-parent-box {
+  width: 73%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.skill-display-parent-box .skill-display-title {
+  font-family: "Playwrite FR Moderne", cursive;
+  font-size: 33px;
+  font-weight: bolder;
+  color: #692456;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
 .skill-display {
-  width: 70%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -947,9 +1098,41 @@ section:nth-child(2n + 1) {
   margin: 10px 0px;
 }
 
+.skill-display .skill-display-box .accordion-item {
+  border: none;
+  background: rgb(226, 168, 26);
+}
+
+.skill-display .skill-display-box .accordion-item .accordion-header {
+  /* border-radius: 20px; */
+  margin: 9px;
+  box-sizing: content-box;
+}
+
+.skill-display .skill-display-box .accordion-item .accordion-header:focus{
+  /* border-radius: 20px; */
+  margin: 9px;
+  box-sizing: content-box;
+}
+
+.skill-display .skill-display-box .accordion-item .accordion-button:not(.collapsed) {
+  color: inherit !important;
+}
+
+.skill-display
+  .skill-display-box
+  .accordion-item
+  .accordion-header
+  .accordion-button {
+  background: #ff9000cf;
+}
+
+.skill-display .skill-display-box .accordion-item .accordion-header .accordion-button img {
+  height: 60px;
+}
+
 .skill-display-box .skill-display-heading {
   font-size: 24px;
-  font-weight: bold;
 }
 
 .skill-display-box .skill-display-content {
@@ -986,7 +1169,7 @@ section:nth-child(2n + 1) {
   box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
 }
 
-.skill-progress>div {
+.skill-progress > div {
   border-radius: 6px 0px 0px 14px;
   box-shadow: 1px 1px 5px 2px #989882;
 }
@@ -1388,7 +1571,7 @@ button:focus {
   font-weight: bolder;
   font-size: 1.4rem;
   /* text-shadow: 0px 1px 1px #942424; */
-  font-family: 'Sedan SC';
+  font-family: "Sedan SC";
 }
 
 #education .heading1 {
@@ -1440,7 +1623,7 @@ button:focus {
 }
 
 #education .description strong {
-  color: #411810
+  color: #411810;
 }
 
 #education .description {
@@ -1672,7 +1855,16 @@ blockquote cite:before {
     width: 50%;
   }
 
-  .threejournies>div .modal .modal-content .modal-body .carousel .carousel-inner .carousel-item .card .card-body {
+  .threejournies
+    > div
+    .modal
+    .modal-content
+    .modal-body
+    .carousel
+    .carousel-inner
+    .carousel-item
+    .card
+    .card-body {
     font-size: 13.8px;
   }
 }
@@ -1776,9 +1968,8 @@ blockquote cite:before {
 }
 
 @media screen and (max-width: 600px) {
-
-  #contact-display>form,
-  #contact-display>aside {
+  #contact-display > form,
+  #contact-display > aside {
     width: 100%;
     margin: 15px;
   }
@@ -1918,13 +2109,20 @@ blockquote cite:before {
 }
 
 @media screen and (max-width: 375px) {
-  .threejournies>div .modal .modal-content .carousel .carousel-inner .carousel-item .card #qb2 {
+  .threejournies
+    > div
+    .modal
+    .modal-content
+    .carousel
+    .carousel-inner
+    .carousel-item
+    .card
+    #qb2 {
     margin-top: 0;
   }
 }
 
 @media screen and (max-width: 340px) {
-
   .timeline-box::after,
   #education .timeline-box::after {
     left: -12.5%;
