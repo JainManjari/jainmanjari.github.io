@@ -128,6 +128,28 @@ var animationDoneSection = new Array(sections.length);
 for (let i = 0; i < animationDoneSection.length; i++) {
   animationDoneSection[i] = false;
 }
+
+let skillDisplayHeaders = $(
+  ".skill-display .skill-display-box .accordion-item .accordion-header"
+);
+
+for (let skillDisplayHeader of skillDisplayHeaders) {
+  skillDisplayHeader.addEventListener("click", function (e) {
+    e.preventDefault();
+    let id = skillDisplayHeader.attributes.id.value.split("-")[2];
+    let button = $(`#${skillDisplayHeader.attributes.id.value} button`);
+    let isCollapsed = button.attr("class").includes("collapsed");
+    if (!isCollapsed) {
+      let accordionCollapseId = `according-collapse-${id}`;
+      let progessBars = $(`#${accordionCollapseId} .skill-progress`);
+      for (var i = 0; i < progessBars.length; i++) {
+        initialisedBar(progessBars[i].firstElementChild)
+        fillBar(progessBars[i].firstElementChild);
+      }
+    }
+  });
+}
+
 function isInViewPort(ele) {
   var coordinates = ele.getBoundingClientRect();
   // console.log(coordinates.top);
@@ -135,10 +157,10 @@ function isInViewPort(ele) {
 }
 
 function isInView(ele) {
-    var coordinates = ele.getBoundingClientRect();
-    // console.log(coordinates.top);
-    return coordinates.y == 75;
-  }
+  var coordinates = ele.getBoundingClientRect();
+  // console.log(coordinates.top);
+  return coordinates.y == 75;
+}
 
 var animationDone = new Array(progessBar.length);
 for (var i = 0; i < animationDone.length; i++) {
@@ -178,7 +200,7 @@ function shiftTopLayer(toplayer) {
       clearInterval(id);
       return;
     }
-    curr+=1;
+    curr += 1;
     toplayer.style.left = curr + "%";
   }
   var id = setInterval(shift, 10);
