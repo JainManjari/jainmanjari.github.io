@@ -156,7 +156,7 @@ body.modal-open {
 .social .social-icons li a i {
   border-radius: 50%;
   padding: 12px;
-  font-size: 1.2rem;
+  font-size: 2rem;
   transition: all 0.8s ease-in-out;
 }
 
@@ -970,10 +970,17 @@ section:nth-child(2n + 1) {
 }
 
 .social > span {
-  font-size: 25px;
+  font-size: 30px;
   color: #d19ea8;
   font-family: cambria;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  justify-content: center;
+  margin-bottom: 10px;
+  align-items: center;
+  flex-direction: column;
 }
 
 .social > span img {
@@ -983,9 +990,10 @@ section:nth-child(2n + 1) {
 }
 
 .social .social-logo {
+  height: 35px;
+  width: 35px;
+  margin-top: 10px;
   border-radius: 50%;
-  height: 22px;
-  width: 22px;
 }
 
 #theend {
@@ -1371,7 +1379,7 @@ section:nth-child(2n + 1) {
 }
 
 #contact-display {
-  margin-top: 95px;
+  margin-top: 50px;
   width: 80%;
   height: auto;
   display: flex;
@@ -1456,7 +1464,7 @@ button:focus {
   display: flex;
   flex-direction: column;
   width: 45%;
-  font-size: 1.3rem;
+  font-size: 20px;
   margin: 10px;
   font-family: courier;
   justify-content: center;
@@ -1467,7 +1475,6 @@ button:focus {
 
 #aside-contact p {
   color: lightgrey;
-  font-size: 15px;
   overflow-wrap: break-word;
 }
 
@@ -1475,7 +1482,6 @@ button:focus {
   margin-left: 2%;
   list-style: none;
   color: lightgrey;
-  font-size: 15px;
   overflow-wrap: break-word;
 }
 
