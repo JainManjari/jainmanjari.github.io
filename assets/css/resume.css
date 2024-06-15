@@ -102,6 +102,7 @@ body.modal-open {
   height: auto;
   font-size: 39px;
   text-align: left;
+  font-family: "Volkhov", serif;
 }
 
 .navbar {
@@ -1051,6 +1052,8 @@ section:nth-child(2n + 1) {
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 #education .description .accordion-header .accordion-button {
@@ -1070,9 +1073,20 @@ section:nth-child(2n + 1) {
   border: inherit !important;
 }
 
+.description .accordion-header .accordion-button:hover {
+  background: #ffb74366 !important;
+}
+
+
 #education .description .accordion-header .accordion-button:not(.collapsed) {
   background: #c6dca2 !important;
 }
+
+#education .description .accordion-header .accordion-button:hover {
+  background: #c6dca2 !important;
+}
+
+
 
 .description ul li::before {
   content: "";
@@ -1101,6 +1115,7 @@ section:nth-child(2n + 1) {
   color: #692456;
   letter-spacing: 2px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .skill-display {
@@ -1154,6 +1169,15 @@ section:nth-child(2n + 1) {
   flex-wrap: wrap;    
   border: none;
   padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.skill-display
+  .skill-display-box
+  .accordion-item:hover {
+ text-decoration: underline;
 }
 
 .skill-display
@@ -2162,6 +2186,14 @@ blockquote cite:before {
     inline-size: 200px;
     overflow-wrap: break-word;
   }
+
+  .dropdown {
+    width: 100% !important;
+  }
+
+  .description .accordion-header .accordion-button {
+   flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -2192,4 +2224,12 @@ blockquote cite:before {
   .divider-border {
     height: 83% !important;
   }
+}
+
+.dropdown {
+  width: 50px;
+}
+
+.dropdown img {
+  height: 25px !important;
 }

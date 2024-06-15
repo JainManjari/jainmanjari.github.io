@@ -62,8 +62,8 @@ for (let i = 0; i < list.length; i++) {
           clearInterval(id1);
           return;
         }
-        window.scrollBy(0, 50);
-        curr += 50;
+        window.scrollBy(0, 200);
+        curr += 200;
       } else {
         if (curr <= targetPos) {
           $(" #leaves i", sectionId).css(
@@ -101,11 +101,11 @@ for (let i = 0; i < list.length; i++) {
           clearInterval(id1);
           return;
         }
-        window.scrollBy(0, -50);
-        curr -= 50;
+        window.scrollBy(0, -200);
+        curr -= 200;
       }
     }
-    var id1 = setInterval(jsnav, 10);
+    var id1 = setInterval(jsnav, 5);
   });
 }
 
@@ -233,7 +233,7 @@ function fillBars() {
       curr++;
       i.style.width = curr + "%";
     }
-    var b = setInterval(barFill, 3);
+    var b = setInterval(barFill, 1);
   }
 }
 
