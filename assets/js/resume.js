@@ -136,11 +136,11 @@ let skillDisplayHeaders = $(
 for (let skillDisplayHeader of skillDisplayHeaders) {
   skillDisplayHeader.addEventListener("click", function (e) {
     e.preventDefault();
-    let id = skillDisplayHeader.attributes.id.value.split("-")[2];
-    let button = $(`#${skillDisplayHeader.attributes.id.value} button`);
+    let id= skillDisplayHeader.attributes.id.value;
+    let accordionCollapseId = skillDisplayHeader.attributes.id.value.replace("heading","collapse");
+    let button = $(`#${id} button`);
     let isCollapsed = button.attr("class").includes("collapsed");
-    if (!isCollapsed) {
-      let accordionCollapseId = `according-collapse-${id}`;
+    if (isCollapsed) {
       let progessBars = $(`#${accordionCollapseId} .skill-progress`);
       for (var i = 0; i < progessBars.length; i++) {
         initialisedBar(progessBars[i].firstElementChild)
@@ -263,16 +263,16 @@ window.addEventListener("scroll", function () {
   } else {
     $(".navbar").removeClass("fixed-top");
   }
-  for (var i = 0; i < progessBar.length; i++) {
-    if (!animationDone[i] && isInViewPort(progessBar[i])) {
-      fillBar(progessBar[i].firstElementChild);
-      animationDone[i] = true;
-      //console.log("skill");
-    } else if (!isInViewPort(progessBar[i])) {
-      animationDone[i] = false;
-      initialisedBar(progessBar[i].firstElementChild);
-    }
-  }
+  // for (var i = 0; i < progessBar.length; i++) {
+  //   if (!animationDone[i] && isInViewPort(progessBar[i])) {
+  //     fillBar(progessBar[i].firstElementChild);
+  //     animationDone[i] = true;
+  //     //console.log("skill");
+  //   } else if (!isInViewPort(progessBar[i])) {
+  //     animationDone[i] = false;
+  //     initialisedBar(progessBar[i].firstElementChild);
+  //   }
+  // }
 
   for (let i = 0; i < topLayers.length; i++) {
     if (!animationDoneTopLayers[i] && isInViewPort(topLayers[i])) {
