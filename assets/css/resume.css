@@ -13,6 +13,7 @@ body {
   height: 100%;
   width: 100vw;
   padding: 0;
+  overflow-x: hidden !important;
 }
 
 body.modal-open {
@@ -717,7 +718,7 @@ body.modal-open {
 }
 
 #about-para span {
-  font-size: smaller;
+  /* font-size: smaller; */
   text-align: center;
   width: 100%;
   display: block;
@@ -731,6 +732,7 @@ section {
   min-height: 730px;
   position: relative;
   justify-content: center;
+  padding-bottom: 30px;
 }
 
 #leaves {
@@ -1117,13 +1119,16 @@ section:nth-child(2n + 1) {
   box-sizing: content-box;
 }
 
-.skill-display .skill-display-box .accordion-item .accordion-header:focus{
+.skill-display .skill-display-box .accordion-item .accordion-header:focus {
   /* border-radius: 20px; */
   margin: 9px;
   box-sizing: content-box;
 }
 
-.skill-display .skill-display-box .accordion-item .accordion-button:not(.collapsed) {
+.skill-display
+  .skill-display-box
+  .accordion-item
+  .accordion-button:not(.collapsed) {
   color: inherit !important;
 }
 
@@ -1132,15 +1137,26 @@ section:nth-child(2n + 1) {
   .accordion-item
   .accordion-header
   .accordion-button {
+  width: 100%;
   background: #ff9000cf;
+  overflow-wrap: break-word;
+  display: flex;
+  flex-wrap: wrap;    
+ 
 }
 
-.skill-display .skill-display-box .accordion-item .accordion-header .accordion-button img {
+.skill-display
+  .skill-display-box
+  .accordion-item
+  .accordion-header
+  .accordion-button
+  img {
   height: 60px;
 }
 
 .skill-display-box .skill-display-heading {
   font-size: 24px;
+  overflow-wrap: anywhere;
 }
 
 .skill-display-box .skill-display-content {
@@ -1463,6 +1479,7 @@ button:focus {
 #aside-contact {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   width: 45%;
   font-size: 20px;
   margin: 10px;
@@ -1476,12 +1493,29 @@ button:focus {
 #aside-contact p {
   color: lightgrey;
   overflow-wrap: break-word;
+  width: 100%;
+}
+
+#aside-contact .contact-info-list {
+  display: flex;
+  width: 100%;
 }
 
 #aside-contact table {
   margin-left: 2%;
   list-style: none;
   color: lightgrey;
+  overflow-wrap: break-word;
+}
+
+#aside-contact table tr {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#aside-contact table tr td{
+  margin: 5px;
   overflow-wrap: break-word;
 }
 
@@ -2111,6 +2145,11 @@ blockquote cite:before {
 
   #body-header .text .takeoff {
     font-size: 30px;
+  }
+
+  #aside-contact table tr td {
+    inline-size: 200px;
+    overflow-wrap: break-word;
   }
 }
 
