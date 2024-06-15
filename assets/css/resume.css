@@ -581,6 +581,180 @@ body.modal-open {
   font-size: 20px;
 }
 
+#newsFlashCarousel {
+  width: 70%;
+  margin: 30px 0px;
+  min-height: 600px;
+  background: #67d0fa !important;
+  box-shadow: 0px 0px 10px 0px #143953;
+  border-radius: 24px;
+  display: flex;
+}
+
+#newsFlashCarousel .carousel-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#newsFlashCarousel .carousel-inner .carousel-item {
+  width: 75%;
+  min-height: 70%;
+  margin: auto;
+  height: auto;
+}
+
+#newsFlashCarousel .carousel-inner .carousel-item .carousel-content {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  height: auto;
+  align-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
+#newsFlashCarousel .carousel-inner .carousel-item .carousel-content .title {
+  margin: 30px 0px;
+  font-size: 25px;
+  color: rgb(255, 255, 240);
+  font-weight: bold;
+  font-family: "Playwrite FR Moderne";
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.functions {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow-wrap: break-word;
+}
+
+#newsFlashCarousel
+  .carousel-inner
+  .carousel-item
+  .carousel-content
+  .functions
+  .title {
+  font-size: 17.5px;
+  font-family: "Playwrite FR Moderne";
+  background: antiquewhite;
+  padding: 10px;
+  box-sizing: content-box;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 23px;
+  color: #059cde;
+  font-weight: bolder;
+  margin: 20px auto;
+}
+
+#newsFlashCarousel
+  .carousel-inner
+  .carousel-item
+  .carousel-content
+  .functions
+  .title
+  img {
+  height: 50px !important;
+}
+
+.functions .functions-list {
+  font-family: "Bellota";
+  font-size: 17.5px;
+  color: #21282f;
+  margin-left: -25px;
+}
+
+#newsFlashCarousel
+  .carousel-inner
+  .carousel-item
+  .carousel-content
+  .functions
+  .functions-list
+  li::marker {
+  content: "";
+}
+
+#newsFlashCarousel
+  .carousel-inner
+  .carousel-item
+  .carousel-content
+  .functions
+  .functions-list
+  li::before {
+  content: "";
+  display: inline-block;
+  height: 25px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("../images/icons8-sunflower-60.png");
+}
+
+.github-button {
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.github-button img {
+  height: 50px !important;
+}
+
+.github-button a {
+  font-size: 17.5px;
+  font-family: "Playwrite FR Moderne";
+  background: antiquewhite;
+  padding: 10px;
+  box-sizing: content-box;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 23px;
+  color: #059cde;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.github-button a:hover {
+  color: #0d739f;
+  text-decoration: none;
+}
+
+.carousel-item .carousel-content img {
+  height: 300px;
+  margin: auto;
+}
+
+.sun {
+  position: absolute;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: rgb(255, 255, 240);
+  opacity: 1;
+  box-shadow: 0px 0px 40px 15px white;
+}
+
+.light {
+  position: absolute;
+  top: 6%;
+  right: 0;
+  left: 80%;
+  margin: 0;
+  background: #fff;
+  box-shadow: 0px 0px 30px 10px rgba(230, 230, 200, 1),
+    0px 0px 10px 5px rgba(255, 255, 255, 1);
+  border-radius: 9999px;
+  z-index: 2;
+}
+
 .newsFlash {
   width: 73%;
   display: flex;
@@ -600,9 +774,11 @@ body.modal-open {
 }
 
 .newsFlash .newsFlash-heading {
-  font-size: 30px;
-  color: #1d5454;
+  font-size: 40px;
+  color: #fde4a5;
   font-family: "Merienda One";
+  text-align: center;
+  font-weight: bold;
 }
 
 .skyinyou,
@@ -1077,7 +1253,6 @@ section:nth-child(2n + 1) {
   background: #ffb74366 !important;
 }
 
-
 #education .description .accordion-header .accordion-button:not(.collapsed) {
   background: #c6dca2 !important;
 }
@@ -1085,8 +1260,6 @@ section:nth-child(2n + 1) {
 #education .description .accordion-header .accordion-button:hover {
   background: #c6dca2 !important;
 }
-
-
 
 .description ul li::before {
   content: "";
@@ -1166,7 +1339,7 @@ section:nth-child(2n + 1) {
   background: #ff9000cf;
   overflow-wrap: break-word;
   display: flex;
-  flex-wrap: wrap;    
+  flex-wrap: wrap;
   border: none;
   padding: 10px;
   justify-content: space-between;
@@ -1174,10 +1347,8 @@ section:nth-child(2n + 1) {
   align-content: center;
 }
 
-.skill-display
-  .skill-display-box
-  .accordion-item:hover {
- text-decoration: underline;
+.skill-display .skill-display-box .accordion-item:hover {
+  text-decoration: underline;
 }
 
 .skill-display
@@ -1549,7 +1720,7 @@ button:focus {
   width: 100%;
 }
 
-#aside-contact table tr td{
+#aside-contact table tr td {
   margin: 5px;
   overflow-wrap: break-word;
 }
@@ -1813,9 +1984,22 @@ blockquote cite:before {
   text-decoration: none;
 }
 
+@media (max-width: 1600px) {
+  .carousel-item .carousel-content > img {
+    height: 200px !important;
+  }
+}
+
 @media (max-width: 1295px) {
   .divider-border {
     height: 83.5% !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .sun,
+  .light {
+    top: 11% !important;
   }
 }
 
@@ -1899,6 +2083,14 @@ blockquote cite:before {
 
   #education .timeline-box:nth-child(2n)::after {
     left: -14.5%;
+  }
+
+  .carousel-item .carousel-content > img {
+    height: 150px !important;
+  }
+
+  .newsFlash {
+    width: 95%;
   }
 }
 
@@ -2012,6 +2204,13 @@ blockquote cite:before {
   .about-i {
     width: 100% !important;
   }
+  .newsFlash {
+    width: 100% !important;
+  }
+  .sun {
+    left: 75% !important;
+    top: 13% !important;
+  }
 }
 
 @media screen and (max-width: 710px) {
@@ -2089,6 +2288,15 @@ blockquote cite:before {
 
   .timeline-box:nth-child(2n)::after {
     left: -12%;
+  }
+  .carousel-item .carousel-content > img {
+    height: 100px !important;
+  }
+  .sun {
+    left: 74% !important;
+    top: 14% !important;
+    height: 75px;
+    width: 75px;
   }
 }
 
@@ -2192,7 +2400,27 @@ blockquote cite:before {
   }
 
   .description .accordion-header .accordion-button {
-   flex-direction: column;
+    flex-direction: column;
+  }
+  .carousel-item .carousel-content > img {
+    height: 65px !important;
+  }
+  .sun {
+    left: 74% !important;
+    top: 13.5% !important;
+    height: 50px;
+    width: 50px;
+  }
+
+  #newsFlashCarousel
+    .carousel-inner
+    .carousel-item
+    .carousel-content
+    .functions
+    .title,
+  .github-button a {
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
   }
 }
 
