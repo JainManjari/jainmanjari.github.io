@@ -1113,13 +1113,16 @@ section:nth-child(2n + 1) {
   box-sizing: content-box;
 }
 
-.skill-display .skill-display-box .accordion-item .accordion-header:focus{
+.skill-display .skill-display-box .accordion-item .accordion-header:focus {
   /* border-radius: 20px; */
   margin: 9px;
   box-sizing: content-box;
 }
 
-.skill-display .skill-display-box .accordion-item .accordion-button:not(.collapsed) {
+.skill-display
+  .skill-display-box
+  .accordion-item
+  .accordion-button:not(.collapsed) {
   color: inherit !important;
 }
 
@@ -1129,9 +1132,20 @@ section:nth-child(2n + 1) {
   .accordion-header
   .accordion-button {
   background: #ff9000cf;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-wrap: break-word;
+  border: none;
+  padding: 10px;
 }
 
-.skill-display .skill-display-box .accordion-item .accordion-header .accordion-button img {
+.skill-display
+  .skill-display-box
+  .accordion-item
+  .accordion-header
+  .accordion-button
+  img {
   height: 60px;
 }
 
