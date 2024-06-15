@@ -891,6 +891,12 @@ section:nth-child(2n + 1) {
   border-radius: 12px;
 }
 
+#education .description .accordion-item .accordion-header {
+  box-shadow: 0px 0px 10px 4px #96ab74;
+  border: 1.2px solid #a7c27c;
+  background: #a7c27c;
+}
+
 .description .accordion-header .accordion-button {
   background: inherit;
   font-family: "Playwrite NL", cursive;
@@ -902,6 +908,10 @@ section:nth-child(2n + 1) {
   align-items: center;
 }
 
+#education .description .accordion-header .accordion-button {
+  font-family: "Cinzel Decorative", serif;
+}
+
 .description .accordion-header .accordion-button img {
   height: 50px;
 }
@@ -909,6 +919,10 @@ section:nth-child(2n + 1) {
 .description .accordion-header .accordion-button:not(.collapsed) {
   background: #ffb74366 !important;
   border: inherit !important;
+}
+
+#education .description .accordion-header .accordion-button:not(.collapsed) {
+  background: #c6dca2 !important;
 }
 
 .description ul li::before {
@@ -1318,7 +1332,7 @@ button:focus {
 }
 
 #education .timeline-box {
-  background: #86ac7c;
+  background: #a7c27c;
   box-shadow: 0px 0px 7px 1px #73540f;
 }
 
@@ -1382,8 +1396,8 @@ button:focus {
 }
 
 #education .heading1 {
-  color: #110d0d;
-  text-shadow: 0px 2px 3px #bb9e9e;
+  color: #682e42;
+  /* text-shadow: 0px 2px 3px #bb9e9e; */
 }
 
 .heading2 {
@@ -1396,7 +1410,7 @@ button:focus {
 }
 
 #education .heading2 {
-  color: #524344;
+  color: #2b3318;
 }
 
 .timeline-date {
@@ -1427,6 +1441,10 @@ button:focus {
 
 .description strong {
   color: #a24d3c;
+}
+
+#education .description strong {
+  color: #411810
 }
 
 #education .description {
