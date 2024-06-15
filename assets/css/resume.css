@@ -1,25 +1,23 @@
-html
-{
-	width:100%;
-	margin: 0;
-	overflow-x: hidden !important;
-	height: 100%;
-	width: 100vw;
-	padding: 0;
+html {
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden !important;
+  height: 100%;
+  width: 100vw;
+  padding: 0;
 }
-body
-{
-	margin: 0px;
-	font-family: sans-serif;
-	height: 100%;
-	width: 100vw;
-	padding:0;
+
+body {
+  margin: 0px;
+  font-family: sans-serif;
+  height: 100%;
+  width: 100vw;
+  padding: 0;
 }
 
 body.modal-open {
-    overflow: visible;
+  overflow: visible;
 }
-
 
 .sedan-sc-regular {
   font-family: "Sedan SC", serif;
@@ -56,15 +54,18 @@ body.modal-open {
   background: linear-gradient(45deg, #ce7617, #90290e);
   display: flex;
 }
+
 #body-header .image1 {
   display: flex;
   width: 60%;
   justify-content: center;
   align-items: center;
 }
+
 #body-header .image1 img {
   height: 90%;
 }
+
 #body-header .text {
   width: 33%;
   padding: 50px;
@@ -108,13 +109,16 @@ body.modal-open {
   margin-left: 25%;
   font-size: 22px;
 }
+
 .navbar .nav-link {
   color: darkgreen !important;
   transition: all 10s ease-in-out;
 }
+
 .navbar .nav-link:hover {
   text-decoration: underline;
 }
+
 .navbar button {
   outline: none;
 }
@@ -159,6 +163,7 @@ body.modal-open {
 .social .social-icons li a i:hover {
   box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.2);
 }
+
 #about {
   height: auto;
   width: 100%;
@@ -169,6 +174,7 @@ body.modal-open {
   border: 3px solid white;
   border-radius: 50%;
 }
+
 .blue {
   color: darkblue;
 }
@@ -184,7 +190,7 @@ body.modal-open {
   padding: 10px;
 }
 
-.threejournies > div {
+.threejournies>div {
   width: 210px;
   height: 250px;
   border: none;
@@ -224,7 +230,8 @@ body.modal-open {
   box-shadow: 0px 0px 5px 5px #660c66;
   background: #660c66;
 }
-.threejournies > div .toplayer {
+
+.threejournies>div .toplayer {
   top: 0;
   position: absolute;
   padding-top: 15%;
@@ -238,7 +245,7 @@ body.modal-open {
   cursor: pointer;
 }
 
-.threejournies > div:hover .toplayer {
+.threejournies>div:hover .toplayer {
   left: 100%;
 }
 
@@ -271,12 +278,13 @@ body.modal-open {
   margin: 3px;
 }
 
-.threejournies > div .insidetext {
+.threejournies>div .insidetext {
   margin-top: 0;
   cursor: pointer;
 }
-.threejournies > div .insidetext,
-.threejournies > div .toplayer {
+
+.threejournies>div .insidetext,
+.threejournies>div .toplayer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -291,66 +299,59 @@ body.modal-open {
   font-size: 22px;
 }
 
-.threejournies > div .insidetext span {
+.threejournies>div .insidetext span {
   margin: 4px;
 }
 
-.threejournies > div .toplayer > span {
+.threejournies>div .toplayer>span {
   margin: 10px;
 }
 
 .threejournies .quora #quoraModal .modal-header {
   background: #a92301;
 }
+
 .threejournies .certificates #certModal .modal-header {
   background: #157d7d;
 }
+
 .threejournies .portfolio #portModal .modal-header {
   background: #573181;
 }
 
-.threejournies > div .modal .modal-dialog {
+.threejournies>div .modal .modal-dialog {
   height: 500px;
 }
 
-.threejournies > div .modal .modal-header {
+.threejournies>div .modal .modal-header {
   color: white;
   width: 100.5%;
   display: flex;
   justify-content: center;
   height: 13%;
 }
-.threejournies > div .modal .modal-content {
+
+.threejournies>div .modal .modal-content {
   height: 100%;
 }
-.threejournies > div .modal .modal-content .modal-body {
+
+.threejournies>div .modal .modal-content .modal-body {
   height: 87%;
 }
 
-.threejournies > div .modal .modal-content .carousel {
+.threejournies>div .modal .modal-content .carousel {
   height: 100%;
 }
 
-.threejournies > div.modal .modal-content .carousel-inner {
+.threejournies>div.modal .modal-content .carousel-inner {
   height: 100%;
 }
-.threejournies
-  > div
-  .modal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item {
+
+.threejournies>div .modal .modal-content .carousel .carousel-inner .carousel-item {
   height: 100%;
 }
-.threejournies
-  > div
-  .modal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card {
+
+.threejournies>div .modal .modal-content .carousel .carousel-inner .carousel-item .card {
   height: 100%;
   width: 100% !important;
   border-radius: 30px;
@@ -358,178 +359,63 @@ body.modal-open {
   border: none;
   color: black;
 }
-.threejournies
-  .certificates
-  #certModal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card,
-.threejournies
-  .portfolio
-  #portModal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card {
+
+.threejournies .certificates #certModal .modal-content .carousel .carousel-inner .carousel-item .card,
+.threejournies .portfolio #portModal .modal-content .carousel .carousel-inner .carousel-item .card {
   border-radius: 0;
 }
-.threejournies
-  .certificates
-  #certModal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  a,
-.threejournies
-  .portfolio
-  #portModal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  a {
+
+.threejournies .certificates #certModal .modal-content .carousel .carousel-inner .carousel-item .card a,
+.threejournies .portfolio #portModal .modal-content .carousel .carousel-inner .carousel-item .card a {
   position: absolute;
   bottom: 35px;
 }
 
-.threejournies
-  .portfolio
-  #portModal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  a {
+.threejournies .portfolio #portModal .modal-content .carousel .carousel-inner .carousel-item .card a {
   background: #665394;
   border-color: purple;
 }
 
-.threejournies
-  .portfolio
-  #portModal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  a:hover {
+.threejournies .portfolio #portModal .modal-content .carousel .carousel-inner .carousel-item .card a:hover {
   background: #594781;
 }
 
-.threejournies
-  .certificates
-  #certModal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  img,
-.threejournies
-  .portfolio
-  #portModal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  img {
+.threejournies .certificates #certModal .modal-content .carousel .carousel-inner .carousel-item .card img,
+.threejournies .portfolio #portModal .modal-content .carousel .carousel-inner .carousel-item .card img {
   height: 190px;
   width: 80%;
   margin: auto;
 }
 
-.threejournies
-  .portfolio
-  #portModal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  img {
+.threejournies .portfolio #portModal .modal-content .carousel .carousel-inner .carousel-item .card img {
   width: 60%;
 }
 
-.threejournies
-  .certificates
-  #certModal
-  .modal-content
-  .carousel
-  .carousel-indicators,
-.threejournies
-  .portfolio
-  #portModal
-  .modal-content
-  .carousel
-  .carousel-indicators {
+.threejournies .certificates #certModal .modal-content .carousel .carousel-indicators,
+.threejournies .portfolio #portModal .modal-content .carousel .carousel-indicators {
   margin-bottom: 5px;
 }
 
-.threejournies
-  > div
-  .modal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  a {
+.threejournies>div .modal .modal-content .carousel .carousel-inner .carousel-item .card a {
   margin-top: 30px;
 }
 
-.threejournies
-  .quora
-  #quoraModal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  .btn-info {
+.threejournies .quora #quoraModal .modal-content .carousel .carousel-inner .carousel-item .card .btn-info {
   background-color: #ad334c;
   border-color: #681f2e;
   position: absolute;
   bottom: 60px;
 }
-.threejournies
-  .quora
-  #quoraModal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  .btn-info:hover {
+
+.threejournies .quora #quoraModal .modal-content .carousel .carousel-inner .carousel-item .card .btn-info:hover {
   background-color: #c71236;
 }
-.threejournies
-  > div
-  .modal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  #qb2 {
+
+.threejournies>div .modal .modal-content .carousel .carousel-inner .carousel-item .card #qb2 {
   margin-top: 10px;
 }
-.threejournies
-  > div
-  .modal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  .card-body {
+
+.threejournies>div .modal .modal-content .carousel .carousel-inner .carousel-item .card .card-body {
   padding: 1.4rem;
   font-family: Georgia;
   font-size: 15px;
@@ -539,6 +425,7 @@ body.modal-open {
   text-align: justify;
   position: relative;
 }
+
 .threejournies .carousel-indicators li {
   background-color: #866666;
 }
@@ -568,12 +455,11 @@ body.modal-open {
 }
 
 .newsFlash .newsFlash-content {
-
   justify-content: space-evenly;
-    width: 80%;
-    margin: 20px 0px;
-    display: flex;
-    flex-wrap: wrap;
+  width: 80%;
+  margin: 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .newsFlash .newsFlash-heading {
@@ -666,6 +552,7 @@ body.modal-open {
   letter-spacing: 0;
   word-spacing: 0;
 }
+
 .skyinyou-link a {
   color: #e0f7fa;
   text-decoration: underline;
@@ -702,6 +589,7 @@ body.modal-open {
   width: 100%;
   display: block;
 }
+
 section {
   display: flex;
   flex-direction: column;
@@ -768,12 +656,14 @@ section {
   height: 23px;
   width: 30px;
 }
+
 #leaves i:nth-of-type(n):before {
   width: 7px;
   height: 5px;
   top: 17px;
   right: 1px;
 }
+
 #leaves i:nth-of-type(n):after {
   width: 2px;
   height: 17px;
@@ -785,12 +675,14 @@ section {
   height: 11px;
   width: 16px;
 }
+
 #leaves i:nth-of-type(2n + 1):before {
   width: 4px;
   height: 3px;
   top: 7px;
   right: 0px;
 }
+
 #leaves i:nth-of-type(2n + 1):after {
   width: 2px;
   height: 6px;
@@ -802,12 +694,14 @@ section {
   height: 17px;
   width: 23px;
 }
+
 #leaves i:nth-of-type(3n + 2):before {
   height: 4px;
   width: 4px;
   top: 12px;
   right: 1px;
 }
+
 #leaves i:nth-of-type(3n + 2):after {
   height: 10px;
   width: 2px;
@@ -818,15 +712,19 @@ section {
 #leaves i:nth-of-type(n) {
   -webkit-animation-delay: 1.9s;
 }
+
 #leaves i:nth-of-type(2n) {
   -webkit-animation-delay: 3.9s;
 }
+
 #leaves i:nth-of-type(3n) {
   -webkit-animation-delay: 2.3s;
 }
+
 #leaves i:nth-of-type(4n) {
   -webkit-animation-delay: 4.4s;
 }
+
 #leaves i:nth-of-type(5n) {
   -webkit-animation-delay: 5s;
 }
@@ -834,9 +732,11 @@ section {
 #leaves i:nth-of-type(n) {
   background: linear-gradient(to bottom right, #309900, #005600);
 }
+
 #leaves i:nth-of-type(2n + 2) {
   background: linear-gradient(to bottom right, #5e9900, #2b5600);
 }
+
 #leaves i:nth-of-type(4n + 1) {
   background: linear-gradient(to bottom right, #990, #564500);
 }
@@ -935,17 +835,23 @@ section:nth-child(2n + 1) {
   align-items: center;
 }
 
-.social > span {
+.social>span {
   font-size: 25px;
   color: #d19ea8;
   font-family: cambria;
   text-align: center;
 }
 
-.social > span img {
+.social>span img {
   height: 40px;
   width: 59px;
   margin-top: -6px;
+}
+
+.social .social-logo {
+  border-radius: 50%;
+  height: 22px;
+  width: 22px;
 }
 
 #theend {
@@ -965,6 +871,40 @@ section:nth-child(2n + 1) {
 
 #logo-designer:hover {
   color: #ffcdd2;
+}
+
+
+.description {
+  background: inherit;
+  border: none;
+}
+
+.description .accordion-item {
+  background: inherit;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.description .accordion-item .accordion-header {
+  box-shadow: 0px 0px 10px 4px #e2c8a2;
+  border: 1.2px solid #c7aa7f;
+  border-radius: 12px;
+}
+
+.description .accordion-header .accordion-button {
+  background: inherit;
+  font-family: "Playwrite NL", cursive;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.description .accordion-header .accordion-button img {
+  height: 50px;
+}
+
+.description .accordion-header .accordion-button:not(.collapsed) {
+  background: #ffb74366 !important;
+  border: inherit !important;
 }
 
 .description ul li::before {
@@ -1031,7 +971,8 @@ section:nth-child(2n + 1) {
   overflow: hidden;
   box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
 }
-.skill-progress > div {
+
+.skill-progress>div {
   border-radius: 6px 0px 0px 14px;
   box-shadow: 1px 1px 5px 2px #989882;
 }
@@ -1089,6 +1030,7 @@ section:nth-child(2n + 1) {
 .dark-green {
   background-color: #143810;
 }
+
 .navy-grey {
   background-color: #465085;
 }
@@ -1098,35 +1040,35 @@ section:nth-child(2n + 1) {
 }
 
 .dark-purple {
-	background-color: #6c217e;
+  background-color: #6c217e;
 }
 
 .bubble-gum {
-	background-color: #ff19ad;
+  background-color: #ff19ad;
 }
 
 .sky-blue {
-	background-color: #398fd9;
+  background-color: #398fd9;
 }
 
 .grey-green {
-	background-color: #646c51;
+  background-color: #646c51;
 }
 
 .mid-blue {
-	background-color: #3b7ca1;
+  background-color: #3b7ca1;
 }
 
-.dark-brown{
-	background-color: #6c1b25;
+.dark-brown {
+  background-color: #6c1b25;
 }
 
 .teal {
-	background-color: #28a480;
+  background-color: #28a480;
 }
 
 .light-green {
-	background-color: #669316;
+  background-color: #669316;
 }
 
 .maven-red {
@@ -1140,6 +1082,7 @@ section:nth-child(2n + 1) {
 .gradle-dark {
   background-color: #382f2f;
 }
+
 .blue {
   background-color: #2857a4;
   /* padding: 2px; */
@@ -1169,6 +1112,7 @@ section:nth-child(2n + 1) {
 .purple {
   background-color: #917bd0;
 }
+
 .yellow {
   background-color: #a5871d;
 }
@@ -1191,6 +1135,7 @@ section:nth-child(2n + 1) {
   background-color: #93738c;
   padding: 2px;
 }
+
 .skill-name span {
   color: #f4e1e1;
   font-size: 1.15rem;
@@ -1239,12 +1184,14 @@ section:nth-child(2n + 1) {
   padding: 0 10px;
   margin-bottom: 50px;
 }
+
 form {
   width: 45%;
   display: flex;
   flex-direction: column;
   margin: 10px;
 }
+
 input {
   background: transparent;
   border: 0px solid transparent;
@@ -1256,6 +1203,7 @@ input {
   font-size: 1.05rem;
   line-height: 1.6;
 }
+
 textarea {
   background-color: transparent;
   border-color: transparent;
@@ -1300,11 +1248,13 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background: #2b774c;
 }
+
 input:focus,
 textarea:focus,
 button:focus {
   outline: none;
 }
+
 #aside-contact {
   display: flex;
   flex-direction: column;
@@ -1421,10 +1371,10 @@ button:focus {
   display: block;
   margin-bottom: 5px;
   color: #550707;
-  font-weight: 790;
-  font-size: 1.2rem;
-  text-shadow: 0px 1px 1px #942424;
-  font-family: times roman;
+  font-weight: bolder;
+  font-size: 1.4rem;
+  /* text-shadow: 0px 1px 1px #942424; */
+  font-family: 'Sedan SC';
 }
 
 #education .heading1 {
@@ -1433,12 +1383,12 @@ button:focus {
 }
 
 .heading2 {
-  color: #093a3e;
-  font-size: 1rem;
+  color: #a9802d;
+  font-size: 1.1rem;
   font-weight: 700;
   width: 92%;
   margin-left: 9%;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 #education .heading2 {
@@ -1455,7 +1405,7 @@ button:focus {
 }
 
 .timeline-date span {
-  background: #ec9455;
+  background: #fffdfbb5;
   padding: 4px;
   font-family: courier;
 }
@@ -1469,6 +1419,10 @@ button:focus {
   color: #240404;
   font-size: 1rem;
   margin-top: 20px;
+}
+
+.description strong {
+  color: #a24d3c;
 }
 
 #education .description {
@@ -1499,12 +1453,19 @@ button:focus {
   top: 3%;
   border-color: #823410;
 }
+
+.riviera-img {
+  width: 80px !important;
+  height: 56px !important;
+  border-radius: 13px !important;
+}
+
 .aeroplane {
   margin-top: -30px;
   position: sticky;
   top: 10%;
   font-size: 2em;
-  color: #c9fff5;
+  color: #fdfff0;
   z-index: 2;
   text-shadow: 3px 3px #616161;
 }
@@ -1544,6 +1505,7 @@ blockquote:before {
   left: -20px;
   top: -20px;
 }
+
 blockquote:after {
   font-family: Georgia, serif;
   position: absolute;
@@ -1554,6 +1516,7 @@ blockquote:after {
   bottom: -0.5em;
   content: "\201D";
 }
+
 blockquote cite {
   color: #999999;
   font-size: 14px;
@@ -1588,6 +1551,7 @@ blockquote cite:before {
   #education .timeline-box:nth-child(2n)::after {
     left: -14%;
   }
+
   #education .divider-border {
     height: 69% !important;
   }
@@ -1597,6 +1561,7 @@ blockquote cite:before {
   .divider-border {
     height: 82.5% !important;
   }
+
   .timeline-box:nth-child(2n)::after {
     left: -14.5%;
   }
@@ -1655,6 +1620,7 @@ blockquote cite:before {
   .navbar #navbarNav {
     margin-left: 11%;
   }
+
   #education .timeline-box:nth-child(2n)::after {
     left: -14.5%;
   }
@@ -1677,24 +1643,18 @@ blockquote cite:before {
     flex-direction: column;
     align-items: center;
   }
+
   .skill span {
     margin-right: 0;
     margin-bottom: 10px;
     text-align: center;
   }
+
   #leaves {
     width: 50%;
   }
-  .threejournies
-    > div
-    .modal
-    .modal-content
-    .modal-body
-    .carousel
-    .carousel-inner
-    .carousel-item
-    .card
-    .card-body {
+
+  .threejournies>div .modal .modal-content .modal-body .carousel .carousel-inner .carousel-item .card .card-body {
     font-size: 13.8px;
   }
 }
@@ -1703,31 +1663,38 @@ blockquote cite:before {
   .timeline {
     width: 88%;
   }
+
   .timeline-box {
     width: 90%;
     margin-left: 4%;
     margin-bottom: 40px;
   }
+
   .timeline-box:nth-child(2n) {
     margin-left: 4%;
   }
+
   .divider-border {
     left: 0%;
     border-width: 3px;
     border-right: none;
     height: 85.5% !important;
   }
+
   .timeline-box::after,
   #education .timeline-box::after {
     left: -11%;
   }
+
   .timeline-box:nth-child(2n)::after,
   #education .timeline-box:nth-child(2n)::after {
     left: -11%;
   }
+
   #education .divider-border {
     height: 69.5% !important;
   }
+
   #body-header {
     flex-wrap: wrap;
   }
@@ -1749,6 +1716,7 @@ blockquote cite:before {
     width: 75%;
     margin: -35px auto 10px;
   }
+
   #body-header .text p {
     font-size: 31px;
     padding: 20px;
@@ -1771,6 +1739,7 @@ blockquote cite:before {
   .navbar #navbarNav {
     margin-left: 34%;
   }
+
   #about-para span {
     text-align: justify !important;
   }
@@ -1789,14 +1758,17 @@ blockquote cite:before {
 }
 
 @media screen and (max-width: 600px) {
-  #contact-display > form,
-  #contact-display > aside {
+
+  #contact-display>form,
+  #contact-display>aside {
     width: 100%;
     margin: 15px;
   }
+
   .divider-border {
     height: 82.5%;
   }
+
   #body-header .text {
     width: 93%;
   }
@@ -1806,6 +1778,7 @@ blockquote cite:before {
   .navbar #navbarNav {
     margin-left: 31%;
   }
+
   .divider-border {
     height: 84% !important;
   }
@@ -1815,9 +1788,11 @@ blockquote cite:before {
   #body-header .text {
     width: 100%;
   }
+
   #body-header .text p {
     font-size: 26px;
   }
+
   .aboutquote {
     width: 65% !important;
   }
@@ -1827,6 +1802,7 @@ blockquote cite:before {
   .timeline-box::after {
     left: -12%;
   }
+
   .timeline-box:nth-child(2n)::after {
     left: -12%;
   }
@@ -1836,6 +1812,7 @@ blockquote cite:before {
   .newsFlash {
     flex-direction: column;
   }
+
   .skyinyou {
     width: 100% !important;
   }
@@ -1845,6 +1822,7 @@ blockquote cite:before {
   #body-header .text {
     width: 100%;
   }
+
   #body-header .text p {
     font-size: 24px;
   }
@@ -1860,13 +1838,16 @@ blockquote cite:before {
   .aboutquote {
     width: 75% !important;
   }
+
   blockquote {
     font-size: 16px !important;
   }
+
   blockquote:before,
   blockquote:after {
     font-size: 65px !important;
   }
+
   .about-i small {
     font-size: 15px !important;
   }
@@ -1876,6 +1857,7 @@ blockquote cite:before {
   .navbar #navbarNav {
     margin-left: 2%;
   }
+
   #education .divider-border {
     height: 68% !important;
   }
@@ -1883,6 +1865,7 @@ blockquote cite:before {
   #education .timeline-box::after {
     left: -11.5%;
   }
+
   #education .timeline-box:nth-child(2n)::after {
     left: -11.5%;
   }
@@ -1892,48 +1875,48 @@ blockquote cite:before {
   #education .divider-border {
     height: 69% !important;
   }
+
   .divider-border {
     height: 82% !important;
   }
+
   .publication {
     margin-bottom: 40px;
   }
+
   #body-header .text {
     margin-top: -142px;
   }
+
   #body-header .text p {
     font-size: 22px;
     padding: 10px;
     margin-bottom: 0px;
   }
+
   #body-header .text .takeoff {
     font-size: 30px;
   }
 }
 
 @media screen and (max-width: 375px) {
-  .threejournies
-    > div
-    .modal
-    .modal-content
-    .carousel
-    .carousel-inner
-    .carousel-item
-    .card
-    #qb2 {
+  .threejournies>div .modal .modal-content .carousel .carousel-inner .carousel-item .card #qb2 {
     margin-top: 0;
   }
 }
 
 @media screen and (max-width: 340px) {
+
   .timeline-box::after,
   #education .timeline-box::after {
     left: -12.5%;
   }
+
   .timeline-box:nth-child(2n)::after,
   #education .timeline-box:nth-child(2n)::after {
     left: -12.5%;
   }
+
   .divider-border {
     height: 83% !important;
   }
