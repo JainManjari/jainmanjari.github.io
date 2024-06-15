@@ -1045,6 +1045,14 @@ section:nth-child(2n + 1) {
   font-family: "Playwrite NL", cursive;
   font-size: 18px;
   letter-spacing: 2px;
+  border: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#education .description .accordion-header .accordion-button {
+  font-family: "Cinzel Decorative", serif;
 }
 
 #education .description .accordion-header .accordion-button {
@@ -1142,7 +1150,8 @@ section:nth-child(2n + 1) {
   overflow-wrap: break-word;
   display: flex;
   flex-wrap: wrap;    
- 
+  border: none;
+  padding: 10px;
 }
 
 .skill-display
