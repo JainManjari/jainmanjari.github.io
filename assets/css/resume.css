@@ -301,6 +301,9 @@ body.modal-open {
   padding: 10px;
   box-sizing: content-box;
   font-size: 22px;
+  color: whitesmoke;
+  overflow-wrap: break-word;
+  width: 85%;
 }
 
 .threejournies > div .insidetext span {
@@ -514,8 +517,8 @@ body.modal-open {
   .carousel-item
   .card
   .btn-info {
-  background-color: #ad334c;
-  border-color: #681f2e;
+  background-color: #b92b27;
+  border-color: #b92b27;
   position: absolute;
   bottom: 60px;
 }
