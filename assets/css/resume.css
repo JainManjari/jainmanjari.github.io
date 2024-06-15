@@ -13,6 +13,7 @@ body {
   height: 100%;
   width: 100vw;
   padding: 0;
+  overflow-x: hidden !important;
 }
 
 body.modal-open {
@@ -1054,6 +1055,10 @@ section:nth-child(2n + 1) {
   font-family: "Cinzel Decorative", serif;
 }
 
+#education .description .accordion-header .accordion-button {
+  font-family: "Cinzel Decorative", serif;
+}
+
 .description .accordion-header .accordion-button img {
   height: 50px;
 }
@@ -1147,7 +1152,6 @@ section:nth-child(2n + 1) {
   flex-wrap: wrap;    
   border: none;
   padding: 10px;
- 
 }
 
 .skill-display
