@@ -1485,6 +1485,42 @@ section:nth-child(2n + 1) {
   background-color: #c33e12;
 }
 
+.vim-green {
+  background-color: #21913d;
+}
+
+.nvm-blue {
+  background-color: #2e88d0;
+}
+
+.yarn-blue {
+  background-color: #397188;
+}
+
+.aws-lamdba-red {
+  background-color: #ec3636;
+}
+
+.wine {
+  background-color: #C91858;
+}
+
+.darkish-grey {
+  background-color: #6b7076;
+}
+
+.dark-numpy {
+  background-color: #6a9181;
+}
+
+.scikit {
+  background-color: #f1397c;
+}
+
+.matplotlib {
+  background-color: #EF4722;
+}
+
 .navy-grey {
   background-color: #465085;
 }
