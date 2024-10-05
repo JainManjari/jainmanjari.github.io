@@ -1525,6 +1525,22 @@ section:nth-child(2n + 1) {
   background-color: #465085;
 }
 
+.putty-purple {
+  background-color: #bc30f2;
+}
+
+.jenkins-red {
+  background-color: #e50404;
+}
+
+.dockers-blue {
+  background-color: #2396ED;
+}
+
+.kubernetes-blue {
+  background-color: #0177BD;
+}
+
 .purple {
   background-color: #7155a3;
 }
