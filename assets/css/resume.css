@@ -1138,6 +1138,11 @@ section:nth-child(2n + 1) {
   font-family: Cambria;
 }
 
+#contact .aboutquote {
+  width: 100%;
+  margin-top: 10px;
+}
+
 .journey {
   color: #cfb381;
   width: 60%;
@@ -2012,6 +2017,10 @@ button:focus {
   flex-direction: column;
 }
 
+#contact .about-i {
+  width: 90%;
+}
+
 blockquote {
   font-family: Georgia, serif;
   font-size: 17px;
@@ -2030,6 +2039,10 @@ blockquote:before {
   position: absolute;
   left: -20px;
   top: -20px;
+}
+
+#contact blockquote::before {
+  padding-left: 0px;
 }
 
 blockquote:after {
@@ -2408,6 +2421,10 @@ blockquote cite:before {
 @media screen and (max-width: 475px) {
   .aboutquote {
     width: 75% !important;
+  }
+
+  #contact .aboutquote {
+    width: 90% !important;
   }
 
   blockquote {
