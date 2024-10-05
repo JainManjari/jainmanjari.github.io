@@ -2548,6 +2548,16 @@ blockquote cite:before {
   .divider-border {
     height: 83% !important;
   }
+
+  #contact .aboutquote {
+    width: 100% !important;
+  }
+
+  #contact blockquote {
+    text-align: center !important;
+    font-size: 12.5px !important;
+    padding: 30px 10px !important;
+  }
 }
 
 .dropdown {
