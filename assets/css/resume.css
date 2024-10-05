@@ -1461,6 +1461,30 @@ section:nth-child(2n + 1) {
   background-color: #143810;
 }
 
+.happy-purple{
+  background-color:#7831ea;
+}
+
+.happy-green{
+  background-color: #33a852;
+}
+
+.bright-red {
+  background-color: #e90002;
+}
+
+.darkish-green {
+  background-color: #55643d;
+}
+
+.mud-red {
+  background-color: #60092b;
+}
+
+.burp-suite {
+  background-color: #c33e12;
+}
+
 .navy-grey {
   background-color: #465085;
 }
