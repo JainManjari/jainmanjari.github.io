@@ -1567,6 +1567,18 @@ section:nth-child(2n + 1) {
   background-color: #bc30f2;
 }
 
+.mysql-grey {
+  background-color: #b3b4b7;
+}
+
+.dynamo-blue {
+  background-color: #737d88;
+}
+
+.react-blue {
+  background-color: #23acc4;
+}
+
 .jenkins-red {
   background-color: #e50404;
 }
