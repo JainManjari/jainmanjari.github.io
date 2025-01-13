@@ -1543,6 +1543,26 @@ section:nth-child(2n + 1) {
   background-color: #465085;
 }
 
+.ts-sky-blue {
+  background-color: #1677c7;
+}
+
+.python-blue {
+  background-color: #3370a1;
+}
+
+.kotlin-purple {
+  background-color: #27282c;
+}
+
+.js-brown {
+  background-color: #c37f13;
+}
+
+.c-plus-green {
+  background-color: #52bb3a;
+}
+
 .putty-purple {
   background-color: #bc30f2;
 }
