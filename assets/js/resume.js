@@ -341,7 +341,7 @@ window.addEventListener("scroll", function () {
   }
 });
 
-var text = "Hi, I am Manjari Jain. This is a small piece of my life.. :)";
+var text = "Hi, I am Manjari Jain. This is just a brief tale of my eclectic life.. 😃🎃☃️";
 var speed = 120;
 var i = 0;
 

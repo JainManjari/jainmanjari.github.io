@@ -78,9 +78,22 @@ body.modal-open {
   align-items: center;
 }
 
+/* #body-header .text #my-name {
+  border-right: 2px solid white;
+  display: inline-block;
+  animation: blink 0.7s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+} */
+
 #body-header .text .takeoff {
   opacity: 0;
-  animation: appear 1.5s ease-in 8.8s forwards;
+  animation: appear 1.5s ease-in 10.2s forwards;
 }
 
 #body-header .text .takeoff img {
@@ -1466,11 +1479,11 @@ section:nth-child(2n + 1) {
   background-color: #143810;
 }
 
-.happy-purple{
-  background-color:#7831ea;
+.happy-purple {
+  background-color: #7831ea;
 }
 
-.happy-green{
+.happy-green {
   background-color: #33a852;
 }
 
@@ -1507,7 +1520,7 @@ section:nth-child(2n + 1) {
 }
 
 .wine {
-  background-color: #C91858;
+  background-color: #c91858;
 }
 
 .darkish-grey {
@@ -1523,7 +1536,7 @@ section:nth-child(2n + 1) {
 }
 
 .matplotlib {
-  background-color: #EF4722;
+  background-color: #ef4722;
 }
 
 .navy-grey {
@@ -1539,11 +1552,11 @@ section:nth-child(2n + 1) {
 }
 
 .dockers-blue {
-  background-color: #2396ED;
+  background-color: #2396ed;
 }
 
 .kubernetes-blue {
-  background-color: #0177BD;
+  background-color: #0177bd;
 }
 
 .purple {
