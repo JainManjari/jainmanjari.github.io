@@ -1801,6 +1801,43 @@ button:focus {
   background: #381955;
 }
 
+#experience #ericsson .timeline-triangle{
+  border-bottom-color: #080808;
+}
+
+#experience #ericsson .timeline-rectangle {
+  background: #080808;
+}
+
+
+#experience #riviera-vit .timeline-triangle{
+  border-bottom-color: #363795;
+}
+
+#experience #riviera-vit .timeline-rectangle {
+  background: #363795;
+}
+
+
+#experience #bel .timeline-triangle{
+  border-bottom-color: #1895d8;
+}
+
+#experience #bel .timeline-rectangle {
+  background: #1895d8;
+}
+
+
+#experience #ecell-vit .timeline-triangle{
+  border-bottom-color: #4c8926;
+}
+
+#experience #ecell-vit .timeline-rectangle {
+  background: #4c8926;
+}
+
+
+
 #education .timeline-box {
   background: #a7c27c;
   box-shadow: 0px 0px 7px 1px #73540f;
