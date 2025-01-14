@@ -207,7 +207,7 @@ body.modal-open {
   padding: 10px;
 }
 
-.threejournies > div {
+.threejournies>div {
   width: 210px;
   height: 250px;
   border: none;
@@ -248,7 +248,7 @@ body.modal-open {
   background: #660c66;
 }
 
-.threejournies > div .toplayer {
+.threejournies>div .toplayer {
   top: 0;
   position: absolute;
   padding-top: 15%;
@@ -262,7 +262,7 @@ body.modal-open {
   cursor: pointer;
 }
 
-.threejournies > div:hover .toplayer {
+.threejournies>div:hover .toplayer {
   left: 100%;
 }
 
@@ -295,13 +295,13 @@ body.modal-open {
   margin: 3px;
 }
 
-.threejournies > div .insidetext {
+.threejournies>div .insidetext {
   margin-top: 0;
   cursor: pointer;
 }
 
-.threejournies > div .insidetext,
-.threejournies > div .toplayer {
+.threejournies>div .insidetext,
+.threejournies>div .toplayer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -319,11 +319,11 @@ body.modal-open {
   width: 85%;
 }
 
-.threejournies > div .insidetext span {
+.threejournies>div .insidetext span {
   margin: 4px;
 }
 
-.threejournies > div .toplayer > span {
+.threejournies>div .toplayer>span {
   margin: 10px;
 }
 
@@ -339,11 +339,11 @@ body.modal-open {
   background: #573181;
 }
 
-.threejournies > div .modal .modal-dialog {
+.threejournies>div .modal .modal-dialog {
   height: 500px;
 }
 
-.threejournies > div .modal .modal-header {
+.threejournies>div .modal .modal-header {
   color: white;
   width: 100.5%;
   display: flex;
@@ -351,40 +351,27 @@ body.modal-open {
   height: 13%;
 }
 
-.threejournies > div .modal .modal-content {
+.threejournies>div .modal .modal-content {
   height: 100%;
 }
 
-.threejournies > div .modal .modal-content .modal-body {
+.threejournies>div .modal .modal-content .modal-body {
   height: 87%;
 }
 
-.threejournies > div .modal .modal-content .carousel {
+.threejournies>div .modal .modal-content .carousel {
   height: 100%;
 }
 
-.threejournies > div.modal .modal-content .carousel-inner {
+.threejournies>div.modal .modal-content .carousel-inner {
   height: 100%;
 }
 
-.threejournies
-  > div
-  .modal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item {
+.threejournies>div .modal .modal-content .carousel .carousel-inner .carousel-item {
   height: 100%;
 }
 
-.threejournies
-  > div
-  .modal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card {
+.threejournies>div .modal .modal-content .carousel .carousel-inner .carousel-item .card {
   height: 100%;
   width: 100% !important;
   border-radius: 30px;
@@ -393,182 +380,62 @@ body.modal-open {
   color: black;
 }
 
-.threejournies
-  .certificates
-  #certModal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card,
-.threejournies
-  .portfolio
-  #portModal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card {
+.threejournies .certificates #certModal .modal-content .carousel .carousel-inner .carousel-item .card,
+.threejournies .portfolio #portModal .modal-content .carousel .carousel-inner .carousel-item .card {
   border-radius: 0;
 }
 
-.threejournies
-  .certificates
-  #certModal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  a,
-.threejournies
-  .portfolio
-  #portModal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  a {
+.threejournies .certificates #certModal .modal-content .carousel .carousel-inner .carousel-item .card a,
+.threejournies .portfolio #portModal .modal-content .carousel .carousel-inner .carousel-item .card a {
   position: absolute;
   bottom: 35px;
 }
 
-.threejournies
-  .portfolio
-  #portModal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  a {
+.threejournies .portfolio #portModal .modal-content .carousel .carousel-inner .carousel-item .card a {
   background: #665394;
   border-color: purple;
 }
 
-.threejournies
-  .portfolio
-  #portModal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  a:hover {
+.threejournies .portfolio #portModal .modal-content .carousel .carousel-inner .carousel-item .card a:hover {
   background: #594781;
 }
 
-.threejournies
-  .certificates
-  #certModal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  img,
-.threejournies
-  .portfolio
-  #portModal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  img {
+.threejournies .certificates #certModal .modal-content .carousel .carousel-inner .carousel-item .card img,
+.threejournies .portfolio #portModal .modal-content .carousel .carousel-inner .carousel-item .card img {
   height: 190px;
   width: 80%;
   margin: auto;
 }
 
-.threejournies
-  .portfolio
-  #portModal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  img {
+.threejournies .portfolio #portModal .modal-content .carousel .carousel-inner .carousel-item .card img {
   width: 60%;
 }
 
-.threejournies
-  .certificates
-  #certModal
-  .modal-content
-  .carousel
-  .carousel-indicators,
-.threejournies
-  .portfolio
-  #portModal
-  .modal-content
-  .carousel
-  .carousel-indicators {
+.threejournies .certificates #certModal .modal-content .carousel .carousel-indicators,
+.threejournies .portfolio #portModal .modal-content .carousel .carousel-indicators {
   margin-bottom: 5px;
 }
 
-.threejournies
-  > div
-  .modal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  a {
+.threejournies>div .modal .modal-content .carousel .carousel-inner .carousel-item .card a {
   margin-top: 30px;
 }
 
-.threejournies
-  .quora
-  #quoraModal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  .btn-info {
+.threejournies .quora #quoraModal .modal-content .carousel .carousel-inner .carousel-item .card .btn-info {
   background-color: #b92b27;
   border-color: #b92b27;
   position: absolute;
   bottom: 60px;
 }
 
-.threejournies
-  .quora
-  #quoraModal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  .btn-info:hover {
+.threejournies .quora #quoraModal .modal-content .carousel .carousel-inner .carousel-item .card .btn-info:hover {
   background-color: #c71236;
 }
 
-.threejournies
-  > div
-  .modal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  #qb2 {
+.threejournies>div .modal .modal-content .carousel .carousel-inner .carousel-item .card #qb2 {
   margin-top: 10px;
 }
 
-.threejournies
-  > div
-  .modal
-  .modal-content
-  .carousel
-  .carousel-inner
-  .carousel-item
-  .card
-  .card-body {
+.threejournies>div .modal .modal-content .carousel .carousel-inner .carousel-item .card .card-body {
   padding: 1.4rem;
   font-family: Georgia;
   font-size: 15px;
@@ -649,12 +516,7 @@ body.modal-open {
   overflow-wrap: break-word;
 }
 
-#newsFlashCarousel
-  .carousel-inner
-  .carousel-item
-  .carousel-content
-  .functions
-  .title {
+#newsFlashCarousel .carousel-inner .carousel-item .carousel-content .functions .title {
   font-size: 17.5px;
   font-family: "Playwrite FR Moderne";
   background: antiquewhite;
@@ -669,13 +531,7 @@ body.modal-open {
   margin: 20px auto;
 }
 
-#newsFlashCarousel
-  .carousel-inner
-  .carousel-item
-  .carousel-content
-  .functions
-  .title
-  img {
+#newsFlashCarousel .carousel-inner .carousel-item .carousel-content .functions .title img {
   height: 50px !important;
 }
 
@@ -686,23 +542,11 @@ body.modal-open {
   margin-left: -25px;
 }
 
-#newsFlashCarousel
-  .carousel-inner
-  .carousel-item
-  .carousel-content
-  .functions
-  .functions-list
-  li::marker {
+#newsFlashCarousel .carousel-inner .carousel-item .carousel-content .functions .functions-list li::marker {
   content: "";
 }
 
-#newsFlashCarousel
-  .carousel-inner
-  .carousel-item
-  .carousel-content
-  .functions
-  .functions-list
-  li::before {
+#newsFlashCarousel .carousel-inner .carousel-item .carousel-content .functions .functions-list li::before {
   content: "";
   display: inline-block;
   height: 25px;
@@ -1171,7 +1015,7 @@ section:nth-child(2n + 1) {
   align-items: center;
 }
 
-.social > span {
+.social>span {
   font-size: 30px;
   color: #d19ea8;
   font-family: cambria;
@@ -1185,7 +1029,7 @@ section:nth-child(2n + 1) {
   flex-direction: column;
 }
 
-.social > span img {
+.social>span img {
   height: 40px;
   width: 59px;
   margin-top: -6px;
@@ -1344,18 +1188,11 @@ section:nth-child(2n + 1) {
   box-sizing: content-box;
 }
 
-.skill-display
-  .skill-display-box
-  .accordion-item
-  .accordion-button:not(.collapsed) {
+.skill-display .skill-display-box .accordion-item .accordion-button:not(.collapsed) {
   color: inherit !important;
 }
 
-.skill-display
-  .skill-display-box
-  .accordion-item
-  .accordion-header
-  .accordion-button {
+.skill-display .skill-display-box .accordion-item .accordion-header .accordion-button {
   width: 100%;
   background: #ff9000cf;
   overflow-wrap: break-word;
@@ -1372,12 +1209,7 @@ section:nth-child(2n + 1) {
   text-decoration: underline;
 }
 
-.skill-display
-  .skill-display-box
-  .accordion-item
-  .accordion-header
-  .accordion-button
-  img {
+.skill-display .skill-display-box .accordion-item .accordion-header .accordion-button img {
   height: 60px;
 }
 
@@ -1420,7 +1252,7 @@ section:nth-child(2n + 1) {
   box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
 }
 
-.skill-progress > div {
+.skill-progress>div {
   border-radius: 6px 0px 0px 14px;
   box-shadow: 1px 1px 5px 2px #989882;
 }
@@ -1894,30 +1726,31 @@ button:focus {
   align-items: center;
   position: relative;
   width: 40%;
-  left: 13%;
+  left: 11%;
   color: white;
+  margin-top: -25px;
 }
 
 #experience .timeline-content .timeline-triangle {
   width: 0;
   height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
   border-bottom: 100px solid red;
   transform: rotate(270deg);
   scale: 0.5;
 }
 
 #experience .timeline-content .timeline-rectangle {
-  height: 50px;
-  width: 35%;
+  height: 55px;
+  width: 36%;
   background: red;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
   right: 43px;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 #education .timeline-box {
@@ -1950,7 +1783,7 @@ button:focus {
 }
 
 #experience .timeline-content:nth-child(2n) {
-  margin-left: 16%;
+  margin-left: 20%;
 }
 
 #experience .timeline-content:nth-child(2n) .timeline-triangle {
@@ -1972,12 +1805,20 @@ button:focus {
 }
 
 #experience .timeline-content::after {
-  top: 40%;
-  right: 5.5%;
+  top: 25%;
+  right: -1.5%;
+  content: "";
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("../images/icons8-growth-64.png");
 }
 
 #experience .timeline-content:nth-child(2n)::after {
-  right: 45.5%;
+  right: 48.5%;
 }
 
 #education .timeline-box::after {
@@ -2069,8 +1910,17 @@ button:focus {
   list-style: none;
 }
 
-.divider-border {
-  border: 1.75px dashed #ffbd036b;
+#experience .divider-border {
+  border: 2px dashed #f8f3ab;
+  min-height: 358px;
+  width: 50px;
+  position: absolute;
+  top: -1%;
+  left: 47.8%;
+}
+
+.divider-runway {
+  border: 1.75px dashed #f8f3ab;
   width: 0;
   height: 90.7%;
   position: absolute;
@@ -2078,7 +1928,7 @@ button:focus {
   left: 50%;
 }
 
-#education .divider-border {
+#education .divider-runway {
   height: 67% !important;
   top: 3%;
   border-color: #823410;
@@ -2176,7 +2026,7 @@ blockquote cite:before {
 }
 
 @media (max-width: 1600px) {
-  .carousel-item .carousel-content > img {
+  .carousel-item .carousel-content>img {
     height: 200px !important;
   }
 }
@@ -2188,6 +2038,7 @@ blockquote cite:before {
 }
 
 @media (max-width: 1200px) {
+
   .sun,
   .light {
     top: 11% !important;
@@ -2276,7 +2127,7 @@ blockquote cite:before {
     left: -14.5%;
   }
 
-  .carousel-item .carousel-content > img {
+  .carousel-item .carousel-content>img {
     height: 150px !important;
   }
 
@@ -2313,16 +2164,7 @@ blockquote cite:before {
     width: 50%;
   }
 
-  .threejournies
-    > div
-    .modal
-    .modal-content
-    .modal-body
-    .carousel
-    .carousel-inner
-    .carousel-item
-    .card
-    .card-body {
+  .threejournies>div .modal .modal-content .modal-body .carousel .carousel-inner .carousel-item .card .card-body {
     font-size: 13.8px;
   }
 }
@@ -2395,9 +2237,11 @@ blockquote cite:before {
   .about-i {
     width: 100% !important;
   }
+
   .newsFlash {
     width: 100% !important;
   }
+
   .sun {
     left: 75% !important;
     top: 13% !important;
@@ -2433,8 +2277,9 @@ blockquote cite:before {
 }
 
 @media screen and (max-width: 600px) {
-  #contact-display > form,
-  #contact-display > aside {
+
+  #contact-display>form,
+  #contact-display>aside {
     width: 100%;
     margin: 15px;
   }
@@ -2480,9 +2325,11 @@ blockquote cite:before {
   .timeline-box:nth-child(2n)::after {
     left: -12%;
   }
-  .carousel-item .carousel-content > img {
+
+  .carousel-item .carousel-content>img {
     height: 100px !important;
   }
+
   .sun {
     left: 74% !important;
     top: 14% !important;
@@ -2597,9 +2444,11 @@ blockquote cite:before {
   .description .accordion-header .accordion-button {
     flex-direction: column;
   }
-  .carousel-item .carousel-content > img {
+
+  .carousel-item .carousel-content>img {
     height: 65px !important;
   }
+
   .sun {
     left: 74% !important;
     top: 13.5% !important;
@@ -2607,12 +2456,7 @@ blockquote cite:before {
     width: 50px;
   }
 
-  #newsFlashCarousel
-    .carousel-inner
-    .carousel-item
-    .carousel-content
-    .functions
-    .title,
+  #newsFlashCarousel .carousel-inner .carousel-item .carousel-content .functions .title,
   .github-button a {
     flex-direction: column !important;
     flex-wrap: wrap !important;
@@ -2620,20 +2464,13 @@ blockquote cite:before {
 }
 
 @media screen and (max-width: 375px) {
-  .threejournies
-    > div
-    .modal
-    .modal-content
-    .carousel
-    .carousel-inner
-    .carousel-item
-    .card
-    #qb2 {
+  .threejournies>div .modal .modal-content .carousel .carousel-inner .carousel-item .card #qb2 {
     margin-top: 0;
   }
 }
 
 @media screen and (max-width: 340px) {
+
   .timeline-box::after,
   #education .timeline-box::after {
     left: -12.5%;
