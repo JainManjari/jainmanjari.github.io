@@ -1729,6 +1729,10 @@ button:focus {
   left: 11%;
   color: white;
   margin-top: -25px;
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer;
 }
 
 #experience .timeline-content .timeline-triangle {
@@ -1751,6 +1755,46 @@ button:focus {
   position: absolute;
   right: 43px;
   font-size: 1.6rem;
+}
+
+#experience #intuit .timeline-triangle{
+  border-bottom-color: #2c70ff;
+}
+
+#experience #intuit .timeline-rectangle {
+  background: #2c70ff;
+}
+
+#experience #paypal .timeline-triangle{
+  border-bottom-color: #202b56;
+}
+
+#experience #paypal .timeline-rectangle {
+  background: #202b56;
+}
+
+#experience #bofa .timeline-triangle{
+  border-bottom-color: #e3233c;
+}
+
+#experience #bofa .timeline-rectangle {
+  background: #e3233c;
+}
+
+#experience #coding-ninjas .timeline-triangle{
+  border-bottom-color: #ff6d16;
+}
+
+#experience #coding-ninjas .timeline-rectangle {
+  background: #ff6d16;
+}
+
+#experience #wipro .timeline-triangle{
+  border-bottom-color: #381955;
+}
+
+#experience #wipro .timeline-rectangle {
+  background: #381955;
 }
 
 #education .timeline-box {
