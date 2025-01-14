@@ -1703,6 +1703,10 @@ button:focus {
 
 #experience .timeline {
   width: 65%;
+  max-height: 370px;
+  overflow: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #f8f3ab #f8f3ab;
 }
 
 .timeline-box {
@@ -1956,10 +1960,10 @@ button:focus {
 
 #experience .divider-border {
   border: 2px dashed #f8f3ab;
-  min-height: 358px;
+  min-height: 745px;
   width: 50px;
   position: absolute;
-  top: -1%;
+  top: 0%;
   left: 47.8%;
 }
 
