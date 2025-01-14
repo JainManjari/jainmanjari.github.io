@@ -1869,6 +1869,10 @@ button:focus {
   margin-bottom: 100px;
 }
 
+#experience .timeline {
+  width: 65%;
+}
+
 .timeline-box {
   position: relative;
   width: 40%;
@@ -1881,8 +1885,39 @@ button:focus {
   background: #f0d7a9;
   height: auto;
   box-shadow: 0px 0px 7px 1px rgb(2, 2, 2);
-  /* min-height: 235px; */
   text-align: right;
+}
+
+#experience .timeline-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 40%;
+  left: 13%;
+  color: white;
+}
+
+#experience .timeline-content .timeline-triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+  transform: rotate(270deg);
+  scale: 0.5;
+}
+
+#experience .timeline-content .timeline-rectangle {
+  height: 50px;
+  width: 35%;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 43px;
+  font-size: 1.8rem;
 }
 
 #education .timeline-box {
@@ -1914,7 +1949,17 @@ button:focus {
   margin-left: 50%;
 }
 
-.timeline-box::after {
+#experience .timeline-content:nth-child(2n) {
+  margin-left: 16%;
+}
+
+#experience .timeline-content:nth-child(2n) .timeline-triangle {
+  margin-right: -411px;
+  transform: rotate(90deg);
+}
+
+.timeline-box::after,
+#experience .timeline-content::after {
   content: "";
   position: absolute;
   border-radius: 50%;
@@ -1924,6 +1969,15 @@ button:focus {
   top: 0%;
   right: -13.5%;
   z-index: 1;
+}
+
+#experience .timeline-content::after {
+  top: 40%;
+  right: 5.5%;
+}
+
+#experience .timeline-content:nth-child(2n)::after {
+  right: 45.5%;
 }
 
 #education .timeline-box::after {
