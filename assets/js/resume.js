@@ -373,6 +373,9 @@ let expDisplayBox = $("#experience .timeline-exp-display-box");
 let expDisplayBoxCloseButton = $(
   "#experience .timeline-exp-display-box .timeline-exp-display-close button"
 );
+let educationAeroplane = $("#education .aeroplane");
+let educationDisplayBox = $("#education .timeline-box");
+console.log("educationDisplayBox", educationDisplayBox);
 
 for (let experienceTimelineContent of experienceTimelineContents) {
   experienceTimelineContent.addEventListener("click", function (e) {
@@ -388,11 +391,14 @@ for (let experienceTimelineContent of experienceTimelineContents) {
     expDisplayBoxCloseButton = $(
       "#experience .timeline-exp-display-box .timeline-exp-display-close button"
     );
-    console.log("expDisplayBoxCloseButton", expDisplayBoxCloseButton);
+    educationAeroplane.css({"zIndex":0});
+    educationDisplayBox.after().css({"zIndex":0});
     expDisplayBoxCloseButton.click(function (e) {
       e.preventDefault();
       expDisplayBox.empty();
       expDisplayBox.css({ display: "none" });
+      educationAeroplane.css({"zIndex":2});
+      educationDisplayBox.after().css({"zIndex":1});
     });
   });
 }

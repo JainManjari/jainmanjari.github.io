@@ -1915,7 +1915,7 @@ button:focus {
   transform: rotate(90deg);
 }
 
-.timeline-box::after,
+#education .timeline-box::after,
 #experience .timeline-content::after {
   content: "";
   position: absolute;
