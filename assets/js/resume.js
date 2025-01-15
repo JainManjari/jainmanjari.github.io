@@ -231,6 +231,144 @@ let intuitExp = `	<div class="timeline-exp-display-close">
 					</div>
 </div>`;
 
+let paypalExp = `	<div class="timeline-exp-display-close">
+					           <button>
+						           <img src="assets/images/icons8-cross-48.png">
+				            </button>
+				         </div>
+				         <br>
+
+                 		<div class="inside-timeline-box">
+						<div style="background: white;
+						border-radius: 50%;
+						height: 65px;
+						padding: 5px;">
+							<img src="assets/images/paypallogo.png" style="width: 65px;height: 65px;">
+						</div>
+						<div class="companytag">
+							<span class="heading1"> Software Engineer 2 </span>
+							<p class="heading2"> PayPal </p>
+						</div>
+					</div>
+					<div class="timeline-date">
+						<span>Sept 2021-Jul 2024</span>
+					</div>
+					<br>
+					<div class="description accordion" id="accordion-paypal">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="accordion-paypal-heading-1">
+								<button class="accordion-button collapsed" type="button" data-toggle="collapse" 
+								data-target="#accordion-paypal-collapse-1" aria-expanded="false" aria-controls="accordion-paypal-collapse-1">
+									<b style="color:#1E1818"> <img src="assets/images/icons8-travel-itinerary-64.png">
+										Journey </b>
+									<div class="dropdown"><img src="assets/images/icons8-dropdown-50.png"></div>
+								</button>
+							</h2>
+							<div id="accordion-paypal-collapse-1" class="accordion-collapse collapse" aria-labelledby="accordion-paypal-heading-1"
+								>
+								<div class="accordion-body">
+									<span style="font-size: 15.5px;"> I work within <strong>Risk as a Service</strong>,
+										specifically
+										in Fraud Protection, which focuses on combating fraudulent activities through
+										meticulous
+										risk analysis and investigations powered by advanced machine learning models and
+										analytics.
+										<br>
+										<br>
+										In my role, I've been involved in several impactful projects:
+										<br>
+										1. Integration of a <strong>new merchant fee charging platform</strong> tailored
+										to the
+										services/products utilized. TechStack used <strong> Kotlin
+										and postgres </strong>. Performance and automation testing was carried out through <strong> Kotlin worksheets </strong>.
+										<br>
+										2. I achieved a <strong>35% reduction in REST API response time</strong> through
+										centralized
+										critical data handling, eliminating redundant <strong>aerospike cache</strong> and <strong>MySQL db</strong> calls, and
+										optimizing
+										nested loops in <strong>Java</strong>.
+										<br>
+										3. Streamlined <strong> aerospike cache and MySQL space utilization by 28%</strong> via a single data
+										source
+										implementation, simplifying merchant onboarding and eliminating duplicate data
+										storage.
+										<br>
+										4.I enhanced data retrieval efficiency and cost management by reducing nested query
+										depth from over ten levels to just two or fewer for complex <strong> big  queries</strong>.
+										<br>
+										5. Boosted revenue by approximately 11% by expanding the activity tab for
+										merchants to
+										monitor CRUD operations on the Reports feature, alongside 
+										introducing a 
+										<strong> scheduler for computing top fields </strong>
+										used in report generations.
+										<br>
+										6. <strong>Automated complex algorithms using PayPal Iguanas</strong>, a machine
+										learning model, to provide customized recommendations based on merchant-set filters,
+										significantly
+										reducing manual intervention.
+										<br>
+										<br>
+										In addition to these projects, I handle various responsibilities such as on-call
+										support,
+										conducting interviews, delivering presentations, and mentoring.
+										I've also been actively involved in cross-platform product development, spanning
+										<strong>backend (Java | Spring | Kafka), frontend (using React), and data engineering (Iguanas)</strong> domains.</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="accordion-paypal-heading-2">
+								<button class="accordion-button collapsed" type="button" data-toggle="collapse"
+									data-target="#accordion-paypal-collapse-2" aria-expanded="false" aria-controls="accordion-paypal-collapse-2">
+									 <b style="color:#1E1818">
+										<img src="assets/images/icons8-applaud-68 (1).png">
+										Accolades
+									</b>
+									<div class="dropdown"><img src="assets/images/icons8-dropdown-50.png"></div>
+								</button>
+							</h2>
+							<div id="accordion-paypal-collapse-2" class="accordion-collapse collapse" aria-labelledby="accordion-paypal-heading-2"
+								>
+								<div class="accordion-body">
+									<ul>
+										<li>My hackathon team <strong>SaMuRais</strong> was lauded with <strong>People's Choice Award, ($2500
+												USD)</strong> in 2023
+											RaaS
+											(Simility) PayPal Hackathon.</li>
+										<li>My cyber security hackathon team <strong>Cyborgs</strong> secured <strong>6th Rank in the 2023 PayPal
+												Cyber‑Security</strong>
+											Competition. Received Bravo on PayPal Profile.</li>
+										<li>My hackathon team <strong>Udaan</strong> was <strong>winner, ($1000 USD)</strong> in 2022 RaaS
+											(Simility) PayPal
+											Hackathon.
+										</li>
+										<li>My cybersecurity hackathon team <strong>Cyborgs</strong> secured <strong> 16th Rank in the 2022 PayPal
+												Cyber‑Security
+												Competition.</strong></li>
+										<li>Received multiple bravos, badges, spot awards and recognition on my PayPal
+											Profile.
+										</li>
+										<li>I was promoted from Software Engineer 1 to Software Engineer 2 within 1 year
+											of
+											joining.
+										</li>
+									</ul>
+								</div>
+							</div>
+
+
+
+						</div>
+
+					</div>
+				
+
+
+
+					`;
+
 let expDisplayBox = $("#experience .timeline-exp-display-box");
 let expDisplayBoxCloseButton = $(
   "#experience .timeline-exp-display-box .timeline-exp-display-close button"
@@ -241,8 +379,12 @@ for (let experienceTimelineContent of experienceTimelineContents) {
     e.preventDefault();
     let id = experienceTimelineContent.attributes.id.value;
     console.log("id", id);
+    if (id === "intuit") {
+      expDisplayBox.append(intuitExp);
+    } else {
+      expDisplayBox.append(paypalExp);
+    }
     expDisplayBox.css({ display: "block" });
-    expDisplayBox.append(intuitExp);
     expDisplayBoxCloseButton = $(
       "#experience .timeline-exp-display-box .timeline-exp-display-close button"
     );
