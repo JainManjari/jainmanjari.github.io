@@ -133,6 +133,10 @@ let skillDisplayHeaders = $(
   ".skill-display .skill-display-box .accordion-item .accordion-header"
 );
 
+let experienceTimelineContents = $(
+  "#experience .timeline .timeline-content"
+);
+
 for (let skillDisplayHeader of skillDisplayHeaders) {
   skillDisplayHeader.addEventListener("click", function (e) {
     e.preventDefault();
@@ -148,6 +152,15 @@ for (let skillDisplayHeader of skillDisplayHeaders) {
       }
     }
   });
+}
+
+for(let experienceTimelineContent of experienceTimelineContents) {
+  experienceTimelineContent.addEventListener("click", function(e) {
+    e.preventDefault();
+    let id = experienceTimelineContent.attributes.id.value;
+    console.log("id", id);
+    
+  })
 }
 
 function isInViewPort(ele) {

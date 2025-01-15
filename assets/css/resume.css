@@ -1820,11 +1820,11 @@ button:focus {
   background: #080808;
 }
 
-#experience #riviera-vit .timeline-triangle{
+#experience .riviera-vit .timeline-triangle{
   border-bottom-color: #363795;
 }
 
-#experience #riviera-vit .timeline-rectangle {
+#experience .riviera-vit .timeline-rectangle {
   background: #363795;
 }
 
