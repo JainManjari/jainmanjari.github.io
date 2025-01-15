@@ -1747,6 +1747,7 @@ button:focus {
   border-bottom: 100px solid red;
   transform: rotate(270deg);
   scale: 0.5;
+  transition: 1.3s border-color, 1s color;
 }
 
 #experience .timeline-content .timeline-rectangle {
@@ -1759,6 +1760,7 @@ button:focus {
   position: absolute;
   right: 43px;
   font-size: 1.6rem;
+  transition: 1.3s background, 1s color;
 }
 
 #experience #intuit .timeline-triangle{
@@ -1767,6 +1769,16 @@ button:focus {
 
 #experience #intuit .timeline-rectangle {
   background: #2c70ff;
+}
+
+#experience .timeline-content:hover .timeline-triangle{
+  border-bottom-color: #f8f3ab !important;
+  color: black;
+}
+
+#experience .timeline-content:hover .timeline-rectangle{
+  background: #f8f3ab !important;
+  color: black;
 }
 
 #experience #paypal .timeline-triangle{
@@ -1792,7 +1804,6 @@ button:focus {
 #experience #coding-ninjas .timeline-rectangle {
   background: #ff6d16;
 }
-
 #experience #wipro .timeline-triangle{
   border-bottom-color: #381955;
 }
@@ -1808,7 +1819,6 @@ button:focus {
 #experience #ericsson .timeline-rectangle {
   background: #080808;
 }
-
 
 #experience #riviera-vit .timeline-triangle{
   border-bottom-color: #363795;
