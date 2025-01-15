@@ -133,53 +133,135 @@ let skillDisplayHeaders = $(
   ".skill-display .skill-display-box .accordion-item .accordion-header"
 );
 
-let experienceTimelineContents = $(
-  "#experience .timeline .timeline-content"
-);
+let experienceTimelineContents = $("#experience .timeline .timeline-content");
 
 for (let skillDisplayHeader of skillDisplayHeaders) {
   skillDisplayHeader.addEventListener("click", function (e) {
     e.preventDefault();
-    let id= skillDisplayHeader.attributes.id.value;
-    let accordionCollapseId = skillDisplayHeader.attributes.id.value.replace("heading","collapse");
+    let id = skillDisplayHeader.attributes.id.value;
+    let accordionCollapseId = skillDisplayHeader.attributes.id.value.replace(
+      "heading",
+      "collapse"
+    );
     let button = $(`#${id} button`);
     let isCollapsed = button.attr("class").includes("collapsed");
     if (isCollapsed) {
       let progessBars = $(`#${accordionCollapseId} .skill-progress`);
       for (var i = 0; i < progessBars.length; i++) {
-        initialisedBar(progessBars[i].firstElementChild)
+        initialisedBar(progessBars[i].firstElementChild);
         fillBar(progessBars[i].firstElementChild);
       }
     }
   });
 }
 
+let intuitExp = `	<div class="timeline-exp-display-close">
+					<button>
+						<img src="assets/images/icons8-cross-48.png">
+					</button>
+				</div>
+				<br>
+				<div class="inside-timeline-box">
+					<div>
+						<img src="assets/images/intuit.jpeg" style="width: 85px;height: 85px;">
+					</div>
+					<div class="companytag">
+						<span class="heading1"> Software Engineer 2 </span>
+						<p class="heading2"> Intuit </p>
+					</div>
+				</div>
+
+				<div class="timeline-date">
+					<span>Jul 2024-Jan 2025</span>
+				</div>
+
+				<br>
+
+				<div class="description accordion" id="accordion-intuit">
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="accordion-intuit-heading-1">
+							<button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#accordion-intuit-collapse-1" aria-expanded="false" aria-controls="accordion-intuit-collapse-1">
+								<b style="color:#1E1818"> <img src="assets/images/icons8-travel-itinerary-64.png">
+									Journey </b>
+								<div class="dropdown"><img src="assets/images/icons8-dropdown-50.png"></div>
+							</button>
+						</h2>
+						<div id="accordion-intuit-collapse-1" class="accordion-collapse collapse" aria-labelledby="accordion-intuit-heading-1">
+							<div class="accordion-body">
+								<span style="font-size: 15.5px;"> 
+									I am part of the <strong>QuickBooks-Print Team</strong>, responsible for rendering and printing customizable invoices, 
+									estimates, sales receipts, and more, via PDF preview, PDF generation, or email delivery. 
+									TechStack used <strong>Java, Spring, React, graphQL, REST APIs, AWS Lambda, DynamoDB and MySQL</strong>.
+								</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="accordion-intuit-heading-2">
+							<button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#accordion-intuit-collapse-2" aria-expanded="false" aria-controls="accordion-intuit-collapse-2">
+								 <b style="color:#1E1818">
+									<img src="assets/images/icons8-applaud-68 (1).png">
+									Accolades
+								</b>
+								<div class="dropdown"><img src="assets/images/icons8-dropdown-50.png"></div>
+							</button>
+						</h2>
+						<div id="accordion-intuit-collapse-2" class="accordion-collapse collapse" aria-labelledby="accordion-intuit-heading-2">
+							<div class="accordion-body">
+								<ul>
+									<li>
+										<strong> Developer’s Velocity Spotlight</strong>: Awarded <strong>INR 4000</strong> for consistent coding for 
+										Print ‐ QuickBooks, Intuit in November 2024.
+									</li>
+									<li>
+										<strong> New Joinee’s Bug Bounty Spotlight</strong>: Awarded <strong> INR 25K </strong> for resolving +13 
+										(out of SLA) bugs within 45 days for Print ‐ QuickBooks, Intuit in 2024.
+									</li>
+									<li>
+										<strong> Developer’s Velocity Spotlight</strong>: Awarded <strong>INR 4000</strong> for consistent coding for 
+										Print ‐ QuickBooks, Intuit in July 2024.
+									</li>
+								</ul>
+							</div>
+						</div>
+
+
+
+					</div>
+</div>`;
+
 let expDisplayBox = $("#experience .timeline-exp-display-box");
-let expDisplayBoxCloseButton = $("#experience .timeline-exp-display-box .timeline-exp-display-close button");
+let expDisplayBoxCloseButton = $(
+  "#experience .timeline-exp-display-box .timeline-exp-display-close button"
+);
 
-
-for(let experienceTimelineContent of experienceTimelineContents) {
-  experienceTimelineContent.addEventListener("click", function(e) {
+for (let experienceTimelineContent of experienceTimelineContents) {
+  experienceTimelineContent.addEventListener("click", function (e) {
     e.preventDefault();
     let id = experienceTimelineContent.attributes.id.value;
     console.log("id", id);
-    expDisplayBox.css({"display":"block"})
-    expDisplayBoxCloseButton.click(function(e) {
+    expDisplayBox.css({ display: "block" });
+    expDisplayBox.append(intuitExp);
+    expDisplayBoxCloseButton = $(
+      "#experience .timeline-exp-display-box .timeline-exp-display-close button"
+    );
+    console.log("expDisplayBoxCloseButton", expDisplayBoxCloseButton);
+    expDisplayBoxCloseButton.click(function (e) {
       e.preventDefault();
-      expDisplayBox.css({"display":"none"})
+      expDisplayBox.empty();
+      expDisplayBox.css({ display: "none" });
     });
   });
 }
 
 function isInViewPort(ele) {
   var coordinates = ele.getBoundingClientRect();
-  // console.log(coordinates.top);
   return coordinates.top <= window.innerHeight;
 }
 
 function isInView(ele) {
   var coordinates = ele.getBoundingClientRect();
-  // console.log(coordinates.top);
   return coordinates.y == 75;
 }
 
@@ -362,7 +444,8 @@ window.addEventListener("scroll", function () {
   }
 });
 
-var text = "Hi, I am Manjari Jain. This is just a brief tale of my eclectic life.. 😃🎃☃️";
+var text =
+  "Hi, I am Manjari Jain. This is just a brief tale of my eclectic life.. 😃🎃☃️";
 var speed = 120;
 var i = 0;
 
