@@ -154,13 +154,21 @@ for (let skillDisplayHeader of skillDisplayHeaders) {
   });
 }
 
+let expDisplayBox = $("#experience .timeline-exp-display-box");
+let expDisplayBoxCloseButton = $("#experience .timeline-exp-display-box .timeline-exp-display-close button");
+
+
 for(let experienceTimelineContent of experienceTimelineContents) {
   experienceTimelineContent.addEventListener("click", function(e) {
     e.preventDefault();
     let id = experienceTimelineContent.attributes.id.value;
     console.log("id", id);
-    
-  })
+    expDisplayBox.css({"display":"block"})
+    expDisplayBoxCloseButton.click(function(e) {
+      e.preventDefault();
+      expDisplayBox.css({"display":"none"})
+    });
+  });
 }
 
 function isInViewPort(ele) {
