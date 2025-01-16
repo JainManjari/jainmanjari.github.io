@@ -2149,9 +2149,60 @@ blockquote cite:before {
   text-decoration: none;
 }
 
+@media (max-width: 1700px) {
+  #experience .timeline-content:nth-child(2n) .timeline-triangle {
+    margin-right: -91%;
+  }
+
+  #experience .timeline-content .timeline-rectangle {
+    font-size: 1.4rem;
+  }
+}
+
 @media (max-width: 1600px) {
   .carousel-item .carousel-content>img {
     height: 200px !important;
+  }
+}
+
+
+@media (max-width: 1500px) {
+  #experience .timeline-content .timeline-triangle {
+    margin-left: -27%;
+  }
+
+  #experience .timeline-content .timeline-rectangle {
+    left: 40%;
+  }
+
+  #experience .timeline-content:nth-child(2n) .timeline-rectangle {
+    left: 70%;
+  }
+
+  #experience .timeline-content:nth-child(2n) .timeline-triangle {
+    margin-right: -152%;
+  }
+
+  #experience .timeline-content::after {
+    right: -3.5%;
+  }
+
+  #experience .timeline-content:nth-child(2n):after {
+    right: 46.5%;
+  }
+}
+
+
+@media (max-width: 1400px) {
+
+  #experience .timeline-content .timeline-rectangle {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1350px) {
+  #experience .timeline-content .timeline-triangle {
+      margin-left: -34%;
   }
 }
 
@@ -2166,6 +2217,22 @@ blockquote cite:before {
   .sun,
   .light {
     top: 11% !important;
+  }
+
+  #experience .timeline-content .timeline-rectangle {
+    font-size: 1rem;
+  }
+
+  #experience .timeline-content::after {
+    right: -5.5%;
+  }
+
+  #experience .timeline-content:nth-child(2n):after {
+    right: 44.5%;
+  }
+
+  #experience .timeline-content:nth-child(2n) .timeline-triangle {
+    margin-right: -162%;
   }
 }
 
