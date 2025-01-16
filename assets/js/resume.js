@@ -369,6 +369,295 @@ let paypalExp = `	<div class="timeline-exp-display-close">
 
 					`;
 
+let bofaExp = `	<div class="timeline-exp-display-close">
+          <button>
+            <img src="assets/images/icons8-cross-48.png">
+         </button>
+      </div>
+      <br>
+      					<div class="inside-timeline-box">
+						<div style="background: white;
+						border-radius: 50%;
+						height: 60px;
+						padding: 4px;">
+							<img src="assets/images/Bank-Of-America-Logo.png" style="width: 65px;height: 50px;">
+						</div>
+						<div class="companytag">
+							<span class="heading1"> Senior Technical Associate</span>
+							<p class="heading2"> Bank of America </p>
+						</div>
+					</div>
+					<div class="timeline-date">
+						<span>July 2020-Sept 2021</span>
+					</div>
+					<br>
+					<div class="description accordion" id="accordion-bofa">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="accordion-bofa-heading-1">
+								<button class="accordion-button collapsed" type="button" data-toggle="collapse"
+									data-target="#accordion-bofa-collapse-1" aria-expanded="false"
+									aria-controls="accordion-bofa-collapse-1">
+									<b style="color:#1E1818"> <img src="assets/images/icons8-travel-itinerary-64.png">
+										Journey </b>
+									<div class="dropdown"><img src="assets/images/icons8-dropdown-50.png"></div>
+								</button>
+							</h2>
+							<div id="accordion-bofa-collapse-1" class="accordion-collapse collapse"
+								aria-labelledby="accordion-bofa-heading-1">
+								<div class="accordion-body">
+									<span style="font-size: 15.5px;">
+										I was briefly part of the CARES Project from October 2020 to March 2021. 
+										Then, I was employed in the <strong>GBT (Global Banking Technologies) WCBT (Wholesale
+										Credit Banking Technologies)</strong>.
+										<br>
+										<br>
+										1. Worked with a dedicated team of 30 professionals focused on developing <strong>Squirrel UI using React</strong>. 
+										<br>
+										2. This application was instrumental in securely storing and retrieving documents for <strong> NLP activities like 
+										   data classification and classification pipelines</strong>.
+								</div>
+							</div>
+						</div>
+
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="accordion-bofa-heading-2">
+								<button class="accordion-button collapsed" type="button" data-toggle="collapse"
+									data-target="#accordion-bofa-collapse-2" aria-expanded="false"
+									aria-controls="accordion-bofa-collapse-2">
+									 <b style="color:#1E1818"><img src="assets/images/icons8-applaud-68 (1).png">Accolades</b>
+									<div class="dropdown"><img src="assets/images/icons8-dropdown-50.png"></div>
+								</button>
+							</h2>
+							<div id="accordion-bofa-collapse-2" class="accordion-collapse collapse"
+								aria-labelledby="accordion-bofa-heading-2">
+								<div class="accordion-body">
+									<ul>
+										<li>I was lauded with the <strong>Bronze Medal (Global Recognition)</strong> for
+											my prominent involvement in
+											the CARES Project.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+
+
+`;
+
+let cnExp = `	<div class="timeline-exp-display-close">
+          <button>
+            <img src="assets/images/icons8-cross-48.png">
+         </button>
+      </div>
+      <br>
+      				<div class="inside-timeline-box">
+						<div>
+							<img src="assets/images/codingninajsicon.png" width="55px" height="55px">
+						</div>
+						<div class="companytag">
+							<span class="heading1"> Teaching Assistant</span>
+							<p class="heading2"> Coding Ninjas </p>
+						</div>
+					</div>
+					<div class="timeline-date">
+						<span>Feb 2020-June 2020</span>
+					</div>
+					<br>
+					<div class="description accordion" id="accordion-cn">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="accordion-cn-heading-1">
+								<button class="accordion-button collapsed" type="button" data-toggle="collapse"
+									data-target="#accordion-cn-collapse-1" aria-expanded="false"
+									aria-controls="accordion-cn-collapse-1">
+									<b style="color:#1E1818"> <img src="assets/images/icons8-travel-itinerary-64.png">
+										Journey 
+									</b>
+									<div class="dropdown"><img src="assets/images/icons8-dropdown-50.png"></div>
+								</button>
+							</h2>
+							<div id="accordion-cn-collapse-1" class="accordion-collapse collapse"
+								aria-labelledby="accordion-cn-heading-1">
+								<div class="accordion-body">
+									<span style="font-size: 15.5px;"><strong>Web Development:</strong> I was responsible
+										for debugging codes, taking doubts sessions, and helping students with their
+										assignments and projects.
+										<br>
+										<br>
+										1. <strong> Served as a Teaching Assistant for an 86 student batch </strong> in the Full Stack Development Course (MERN).
+										<br>
+										2. Engaged in 300+ meetings and addressed 750+ inquiries, maintaining an <strong> impressive rating of 4.86 out of 5 </strong>.
+									</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="accordion-cn-heading-2">
+								<button class="accordion-button collapsed" type="button" data-toggle="collapse"
+									data-target="#accordion-cn-collapse-2" aria-expanded="false"
+									aria-controls="accordion-cn-collapse-2">
+									 <b style="color:#1E1818">
+										<img src="assets/images/icons8-applaud-68 (1).png">
+										Accolades
+									</b>
+									<div class="dropdown"><img src="assets/images/icons8-dropdown-50.png"></div>
+								</button>
+							</h2>
+							<div id="accordion-cn-collapse-2" class="accordion-collapse collapse"
+								aria-labelledby="accordion-cn-heading-2">
+								<div class="accordion-body">
+									<ul>
+										<li>Evaluated 61 assignments, and solved 820 doubts with <strong>an average
+												rating of
+												4.89/5</strong>.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+					</div>
+`;
+
+let wiproExp = `	<div class="timeline-exp-display-close">
+          <button>
+            <img src="assets/images/icons8-cross-48.png">
+         </button>
+      </div>
+      <br>
+      					<div class="inside-timeline-box">
+						<div>
+							<img src="assets/images/wipro.png" width="55px" height="55px">
+						</div>
+						<div class="companytag">
+							<span class="heading1"> Software Development Intern</span>
+							<p class="heading2"> Wipro Limited </p>
+						</div>
+					</div>
+					<div class="timeline-date">
+						<span>May 2019-July 2019</span>
+					</div>
+					<br>
+					<div class="description accordion" id="accordion-wipro">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="accordion-wipro-heading-1">
+								<button class="accordion-button collapsed" type="button" data-toggle="collapse"
+									data-target="#accordion-wipro-collapse-1" aria-expanded="false"
+									aria-controls="accordion-wipro-collapse-1">
+									<b style="color:#1E1818"> <img src="assets/images/icons8-travel-itinerary-64.png">
+										Journey </b>
+									<div class="dropdown"><img src="assets/images/icons8-dropdown-50.png"></div>
+								</button>
+							</h2>
+							<div id="accordion-wipro-collapse-1" class="accordion-collapse collapse"
+								aria-labelledby="accordion-wipro-heading-1">
+								<div class="accordion-body">
+									<span style="font-size: 15.5px;">I was part of a group dedicated to SAP Hybris.
+										During the initial onboarding days, I learned about agile and waterfall
+										methodologies.
+										I was assigned a project to automate an <strong>E-commerce application using
+											Selenium</strong>.
+										Additionally, I automated other web applications within the team that were
+										dedicated to Google APIs.</span>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+`;
+
+let ericssonExp = `	<div class="timeline-exp-display-close">
+          <button>
+            <img src="assets/images/icons8-cross-48.png">
+         </button>
+      </div>
+      <br>
+      		<div class="inside-timeline-box">
+						<div>
+							<img src="assets/images/erricsonicon.png" width="55px" height="55px">
+						</div>
+						<div class="companytag">
+							<span class="heading1"> Trainee</span>
+							<p class="heading2">Ericsson </p>
+						</div>
+					</div>
+					<div class="timeline-date">
+						<span>March 2019-March 2019</span>
+					</div>
+					<br>
+					<div class="description accordion" id="accordion-eric">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="accordion-eic-heading-1">
+								<button class="accordion-button collapsed" type="button" data-toggle="collapse"
+									data-target="#accordion-eric-collapse-1" aria-expanded="false"
+									aria-controls="accordion-eric-collapse-1">
+									<b style="color:#1E1818"> <img src="assets/images/icons8-travel-itinerary-64.png">
+										Journey </b>
+									<div class="dropdown"><img src="assets/images/icons8-dropdown-50.png"></div>
+								</button>
+							</h2>
+							<div id="accordion-eric-collapse-1" class="accordion-collapse collapse"
+								aria-labelledby="accordion-eic-heading-1">
+								<div class="accordion-body">
+									<span style="font-size: 15.5px;"><strong>Ericsson Career Connect Program:</strong>
+										This program provided in-depth learning about Telecommunication Networks,
+										including 1G, 2G, 3G, 4G, and 5G.</span>
+								</div>
+							</div>
+						</div>
+					</div>
+`;
+
+
+let rivieraVitRR = `	<div class="timeline-exp-display-close">
+          <button>
+            <img src="assets/images/icons8-cross-48.png">
+         </button>
+      </div>
+      <br>
+      			<div class="inside-timeline-box">
+						<div>
+							<img src="assets/images/rivieraicon2.png" class="riviera-img">
+						</div>
+						<div class="companytag">
+							<span class="heading1"> Coordinator</span>
+							<p class="heading2"> Riviera, VIT Vellore </p>
+						</div>
+					</div>
+					<div class="timeline-date">
+						<span>Dec 2018-Feb 2019</span>
+					</div>
+					<br>
+					<div class="description accordion" id="accordion-vit-19">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="accordion-vit-19-heading-1">
+								<button class="accordion-button collapsed" type="button" data-toggle="collapse"
+									data-target="#accordion-vit-19-collapse-1" aria-expanded="false"
+									aria-controls="accordion-vit-19-collapse-1">
+									<b style="color:#1E1818"> <img src="assets/images/icons8-travel-itinerary-64.png">
+										Journey </b>
+									<div class="dropdown"><img src="assets/images/icons8-dropdown-50.png"></div>
+								</button>
+							</h2>
+							<div id="accordion-vit-19-collapse-1" class="accordion-collapse collapse"
+								aria-labelledby="accordion-vit-19-heading-1">
+								<div class="accordion-body">
+									<span style="font-size:15.5px;">
+										During my third year at VIT, I coordinated the <strong>Registration and
+											Reception Committee</strong> for our cultural fest, Riviera.
+										Our committee served as the initial point of contact for external participants,
+										ensuring they felt comfortable both on and off campus.
+										We assisted them in exploring activities aligned with their preferences and
+										provided support for their registration.
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>		
+`;
+
 let expDisplayBox = $("#experience .timeline-exp-display-box");
 let expDisplayBoxCloseButton = $(
   "#experience .timeline-exp-display-box .timeline-exp-display-close button"
@@ -384,8 +673,18 @@ for (let experienceTimelineContent of experienceTimelineContents) {
     console.log("id", id);
     if (id === "intuit") {
       expDisplayBox.append(intuitExp);
-    } else {
+    } else if(id==="paypal"){
       expDisplayBox.append(paypalExp);
+    } else if(id==="bofa") {
+      expDisplayBox.append(bofaExp);
+    } else if(id==="coding-ninjas") {
+      expDisplayBox.append(cnExp);
+    } else if(id==="wipro"){
+      expDisplayBox.append(wiproExp);
+    } else if(id==="ericsson"){
+      expDisplayBox.append(ericssonExp);
+    } else {
+      expDisplayBox.append(rivieraVitRR);
     }
     expDisplayBox.css({ display: "block" });
     expDisplayBoxCloseButton = $(
