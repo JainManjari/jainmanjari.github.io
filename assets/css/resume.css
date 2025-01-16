@@ -2307,6 +2307,18 @@ blockquote cite:before {
   .about-i {
     width: 80% !important;
   }
+
+  #experience .timeline-content::after {
+    right: -7.5%;
+  }
+
+  #experience .timeline-content:nth-child(2n):after {
+    right: 42.5%;
+  }
+
+  #experience .timeline-content .timeline-rectangle {
+    font-size: 0.9rem;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -2325,6 +2337,33 @@ blockquote cite:before {
   .newsFlash {
     width: 95%;
   }
+}
+
+@media  screen and (max-width:950px) {
+  #experience .timeline-content .timeline-rectangle {
+    left: 30%;
+    width: 100px;
+  }
+
+  #experience .timeline-content .timeline-triangle {
+    margin-left: -61%;
+}
+
+#experience .timeline-content:nth-child(2n) .timeline-rectangle {
+  left: 80%;
+}
+
+#experience .timeline-content:nth-child(2n) .timeline-triangle {
+  margin-right: -226%;
+}
+
+#experience .timeline-content::after {
+  right: -10.5%;
+}
+
+#experience .timeline-content:nth-child(2n):after {
+  right: 39.5%;
+}
 }
 
 @media screen and (max-width: 850px) {
