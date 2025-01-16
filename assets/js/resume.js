@@ -658,6 +658,150 @@ let rivieraVitRR = `	<div class="timeline-exp-display-close">
 					</div>		
 `;
 
+
+let belExp = `	<div class="timeline-exp-display-close">
+          <button>
+            <img src="assets/images/icons8-cross-48.png">
+         </button>
+      </div>
+      <br>	
+      				<div class="inside-timeline-box">
+						<div>
+							<img src="assets/images/bhelicon.png">
+						</div>
+						<div class="companytag">
+							<span class="heading1">Intern</span>
+							<p class="heading2">Bharat Electronics Limited</p>
+						</div>
+					</div>
+					<div class="timeline-date">
+						<span>May 2018-June 2018</span>
+					</div>
+					<br>
+					<div class="description accordion" id="accordion-bel">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="accordion-bel-heading-1">
+								<button class="accordion-button collapsed" type="button" data-toggle="collapse"
+									data-target="#accordion-bel-collapse-1" aria-expanded="false"
+									aria-controls="accordion-bel-collapse-1">
+									<b style="color:#1E1818"> <img src="assets/images/icons8-travel-itinerary-64.png">
+										Journey </b>
+									<div class="dropdown"><img src="assets/images/icons8-dropdown-50.png"></div>
+								</button>
+							</h2>
+							<div id="accordion-bel-collapse-1" class="accordion-collapse collapse"
+								aria-labelledby="accordion-bel-heading-1">
+								<div class="accordion-body">
+									<span style="font-size: 15.5px;">
+										During this internship, I was familiarized with all the major departments of the
+										company through the rotational program.
+										These departments included <strong>Radar Lab, Works Assembly</strong>, Quality
+										Control, Printed Circuit Boards,
+										Test Automation and Repairing, Magnetic, and P & S Electrical.
+										This comprehensive exposure provided me with a well-rounded understanding of the
+										company's operations
+										and enhanced my technical skills across various domains.</span>
+								</div>
+							</div>
+						</div>
+					</div>
+`;
+
+let rivieraVitGC = `	<div class="timeline-exp-display-close">
+          <button>
+            <img src="assets/images/icons8-cross-48.png">
+         </button>
+      </div>
+      <br>	
+      				<div class="inside-timeline-box">
+						<div>
+							<img src="assets/images/rivieraicon2.png" class="riviera-img">
+						</div>
+						<div class="companytag">
+							<span class="heading1"> Volunteer</span>
+							<p class="heading2"> Riviera, VIT Vellore </p>
+						</div>
+					</div>
+					<div class="timeline-date">
+						<span>Dec 2016-Feb 2017</span>
+					</div>
+					<br>
+					<div class="description accordion" id="accordion-vit-17">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="accordion-vit-17-heading-1">
+								<button class="accordion-button collapsed" type="button" data-toggle="collapse"
+									data-target="#accordion-vit-17-collapse-1" aria-expanded="false"
+									aria-controls="accordion-vit-17-collapse-1">
+									<b style="color:#1E1818"> <img src="assets/images/icons8-travel-itinerary-64.png">
+										Journey </b>
+									<div class="dropdown"><img src="assets/images/icons8-dropdown-50.png"></div>
+								</button>
+							</h2>
+							<div id="accordion-vit-17-collapse-1" class="accordion-collapse collapse"
+								aria-labelledby="accordion-vit-17-heading-1">
+								<div class="accordion-body">
+									<span style="font-size: 15.5px;">I volunteered for the <strong>Guest Care
+											Committee</strong>, which was responsible for the welfare of celebrities
+										attending "Riviera."
+										We ensured that all their needs were met and that they had a comfortable and
+										enjoyable experience.
+										This role taught me valuable skills in hospitality and coordination and helped
+										me grow significantly in managing responsibilities and handling high-pressure
+										situations effectively.</span>
+								</div>
+							</div>
+						</div>
+					</div>
+`;
+
+
+let ecellVit = `	<div class="timeline-exp-display-close">
+          <button>
+            <img src="assets/images/icons8-cross-48.png">
+         </button>
+      </div>
+      <br>
+      			<div class="inside-timeline-box">
+						<div>
+							<img src="assets/images/ecellviticon.jpg">
+						</div>
+						<div class="companytag">
+							<span class="heading1"> Core Committee Member</span>
+							<p class="heading2"> Entrepreneurship Cell, VIT Vellore </p>
+						</div>
+					</div>
+					<div class="timeline-date">
+						<span>Feb 2017-Feb 2018</span>
+					</div>
+					<br>
+					<div class="description accordion" id="accordion-ecell">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="accordion-ecell-heading-1">
+								<button class="accordion-button collapsed" type="button" data-toggle="collapse"
+									data-target="#accordion-ecell-collapse-1" aria-expanded="false"
+									aria-controls="accordion-ecell-collapse-1">
+									<b style="color:#1E1818"> <img src="assets/images/icons8-travel-itinerary-64.png">
+										Journey </b>
+									<div class="dropdown"><img src="assets/images/icons8-dropdown-50.png"></div>
+								</button>
+							</h2>
+							<div id="accordion-ecell-collapse-1" class="accordion-collapse collapse"
+								aria-labelledby="accordion-ecell-heading-1">
+								<div class="accordion-body">
+									I was part of the <strong>Entrepreneurship Cell</strong> at VIT Vellore, a student
+									club dedicated to revitalizing entrepreneurial spirits.
+									We organized various cultural events such as the <strong>Entrepreneurship Awareness
+										Camp, Hackerton, and the 3-Days Internship Boot Camp</strong>.
+									My role as a Content Writer allowed me to explore my innovative side, contributing
+									to the club's mission of fostering creativity and entrepreneurship among students.
+								</div>
+							</div>
+						</div>
+					</div>
+`;
+
+
+
 let expDisplayBox = $("#experience .timeline-exp-display-box");
 let expDisplayBoxCloseButton = $(
   "#experience .timeline-exp-display-box .timeline-exp-display-close button"
@@ -683,8 +827,14 @@ for (let experienceTimelineContent of experienceTimelineContents) {
       expDisplayBox.append(wiproExp);
     } else if(id==="ericsson"){
       expDisplayBox.append(ericssonExp);
-    } else {
+    } else if(id==="riviera-vit-rr") {
       expDisplayBox.append(rivieraVitRR);
+    } else if(id==="bel"){
+      expDisplayBox.append(belExp);
+    } else if(id==="riviera-vit-gc"){
+      expDisplayBox.append(rivieraVitGC);
+    } else {
+      expDisplayBox.append(ecellVit);
     }
     expDisplayBox.css({ display: "block" });
     expDisplayBoxCloseButton = $(
